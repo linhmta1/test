@@ -1,8 +1,4 @@
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
-<script src="https://video.allfun.asia/ccu_su.js"></script>
-<script>
+
     const videoElement = document.getElementById('video');
     const startButton = document.getElementById('startButton');
     window.onload = async function() {
@@ -558,4 +554,3 @@
     }
     
     
-</script>
