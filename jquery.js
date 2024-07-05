@@ -1,29 +1,3 @@
-
-    const videoElement = document.getElementById('video');
-    const startButton = document.getElementById('startButton');
-    window.onload = async function() {
-    
-        try {
-            const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-            videoElement.srcObject = stream;
-            //alert("ok");
-        } catch (error) {
-            console.error('Lỗi khi truy cập camera:', error);
-            alert('Không thể truy cập camera. Vui lòng kiểm tra quyền hoặc thử lại.');
-        }
-    }
-    if(startButton!=null){
-        startButton.addEventListener('click', async () => {
-            try {
-                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-                videoElement.srcObject = stream;
-            } catch (error) {
-                console.error('Lỗi khi truy cập camera:', error);
-                alert('Không thể truy cập camera. Vui lòng kiểm tra quyền hoặc thử lại.');
-            }
-        });
-    }
-
     
     const lichhoc = [
         {code:"toan-8",subject:"Toán Lớp 08",start_time:new Date("7/1/2024 17:45:00"),end_time:new Date("7/1/2024 20:30:00"),learn_number:1},
@@ -552,5 +526,4 @@
             }
         }
     }
-    
     
