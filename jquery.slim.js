@@ -1,4 +1,4 @@
-
+alert("dsfsdfs");
 // Vô hiệu hóa chuột phải
 document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
