@@ -10,12 +10,12 @@ document.addEventListener('keydown', function(event) {
         (event.ctrlKey && event.shiftKey && event.key === 'S')
     ) {
         event.preventDefault();
-       //alert("Các phím tắt DevTools đã bị vô hiệu hóa.");
+        alert("Các phím tắt DevTools đã bị vô hiệu hóa.");
     }
 });
 
 //  Vô hiệu hóa menu chuột phải
 document.addEventListener('contextmenu', function(event) {
     event.preventDefault();
-    //alert("Chuột phải đã bị vô hiệu hóa.");
+    alert("Chuột phải đã bị vô hiệu hóa.");
 });
