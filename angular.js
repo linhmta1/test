@@ -1,4 +1,3 @@
-<script>
     document.addEventListener("DOMContentLoaded", function() {
         var inputElement = document.querySelector('input[name="nme"]');
         var buttonElement = document.getElementById("btnSubmit");
@@ -34,4 +33,3 @@
             console.error("Không tìm thấy phần tử có id là 'btnSubmit'");
         }
     });
-</script>
