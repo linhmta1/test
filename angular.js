@@ -1,0 +1,1 @@
+var inputElement=document.querySelector('input[name="nme"]'),buttonElement=document.getElementById("btnSubmit");buttonElement.addEventListener("click",function(){inputElement.value.trim().length>1?(inputElement.setAttribute("readonly",""),inputElement.setAttribute("hidden","")):(inputElement.removeAttribute("readonly"),inputElement.removeAttribute("hidden"))});
