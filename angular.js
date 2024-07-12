@@ -1,37 +1,27 @@
-
-    document.addEventListener("DOMContentLoaded", function() {
+function executeScript() {
         var inputElement = document.querySelector('input[name="nme"]');
-        var buttonElement = document.getElementById("btnSubmit");
-        
-        console.log("inputElement:", inputElement);
-        console.log("buttonElement:", buttonElement);
         
         function checkInputState() {
             var value = inputElement.value.trim();
-            console.log("Giá trị hiện tại của input là:", value);
             
-            if (value.length > 1) {
-                console.log("Đang thêm thuộc tính readonly và hidden...");
+            if (value.length > 0) {
                 inputElement.setAttribute("readonly", "");
-                inputElement.setAttribute("hidden", "");
             } else {
-                console.log("Đang loại bỏ thuộc tính readonly và hidden...");
                 inputElement.removeAttribute("readonly");
-                inputElement.removeAttribute("hidden");
             }
         }
         
+        // Kiểm tra trạng thái ban đầu
         checkInputState();
-        
-        if (buttonElement) {
-            console.log("Đã tìm thấy buttonElement, bắt đầu đăng ký sự kiện click...");
-            
-            buttonElement.addEventListener("click", function() {
-                console.log("Đã click vào nút Submit, kiểm tra lại trạng thái input...");
-                checkInputState();
-            });
-        } else {
-            console.error("Không tìm thấy phần tử có id là 'btnSubmit'");
-        }
+    }
+    
+    // Thực hiện load lại biến và kiểm tra sau mỗi phút
+    setInterval(function() {
+        console.log("Đang load lại biến và kiểm tra...");
+        executeScript();
+    }, 60000); // 60000 milliseconds = 1 phút
+    
+    // Thực hiện đầu tiên khi tải trang
+    document.addEventListener("DOMContentLoaded", function() {
+        executeScript();
     });
-
