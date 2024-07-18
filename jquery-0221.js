@@ -377,7 +377,7 @@ const lichhoc = [
                         clearInterval(checkSessionInterval);
                         //gắn đoạn code logout bắt đăng nhập lại
                         document.cookie = "_ladipage_unique_user_id=";
-                        window.location.href = "https://topuni.hocmai.vn/lophoc?subject="+code+"&return=multi";
+                        window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code+"&return=multi";
                         
 
                         //alert('You have been logged out due to a login from another IP.');
@@ -393,7 +393,7 @@ const lichhoc = [
         
         const learn_number = checkClassAvailability(code);
         if(learn_number==0){
-            window.location.href = "https://topuni.hocmai.vn/lophoc?subject="+code;
+            window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code;
         }
         
         if(c_user!='')
@@ -401,7 +401,7 @@ const lichhoc = [
             //check lượt học
             check(c_user,code,learn_number);
         }else
-            window.location.href = "https://topuni.hocmai.vn/lophoc?subject="+code;
+            window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code;
     }
 
     async function insertSignalDivIfNeeded(){
