@@ -534,7 +534,7 @@ const lichhoc = [
                 } else {
                     //clear cookie and redirect
                     document.cookie = "_ladipage_unique_user_id=";
-                    window.location.href = "https://topuni.hocmai.vn/lophoc?subject="+code;
+                    window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code;
                 }
             } catch (error) {
                 console.error('Fetch error: ', error);
