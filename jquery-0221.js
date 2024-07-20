@@ -14,8 +14,8 @@
         });
     }
 
-
-const lichhoc = [
+    
+    const lichhoc = [
         {code:"toan-8",subject:"Toán Lớp 08",start_time:new Date("7/1/2024 17:45:00"),end_time:new Date("7/1/2024 20:30:00"),learn_number:1},
 {code:"toannangcao-8",subject:"Toán Nâng cao Lớp 08",start_time:new Date("7/1/2024 17:45:00"),end_time:new Date("7/1/2024 20:30:00"),learn_number:1},
 {code:"toan",subject:"Toán",start_time:new Date("7/1/2024 21:15:00"),end_time:new Date("7/2/2024 0:00:00"),learn_number:2},
@@ -389,7 +389,7 @@ const lichhoc = [
     function loading(){
         console.log("onloading");
         var c_user = getCookie("_ladipage_unique_user_id");
-        var code = window.location.href.substring(31);
+        var code = window.location.href.substring(33);
         
         const learn_number = checkClassAvailability(code);
         if(learn_number==0){
@@ -400,8 +400,9 @@ const lichhoc = [
         {
             //check lượt học
             check(c_user,code,learn_number);
-        }else
+        }else{
             window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code;
+        }
     }
 
     async function insertSignalDivIfNeeded(){
@@ -434,9 +435,9 @@ const lichhoc = [
         const data = await response.json();
         const signal = document.getElementById('signal');
 
-        document.getElementById('signal').innerHTML=encodeBase64(data.ip);
-        
+        document.getElementById('signal').innerHTML=encodeBase64(data.ip);    
     }
+
     function moveSignal() {
         const video = document.getElementById('my-video');
         insertSignalDivIfNeeded();
@@ -458,7 +459,7 @@ const lichhoc = [
         signal.style.top = randomTop + 'px';
     }
 
-    window.onload = function () {
+    window.onload = async function () {
         loading();
         try{
             //moveSignal();
@@ -466,7 +467,6 @@ const lichhoc = [
         }catch(error){
 
         }
-        
     }
     //setInterval(loading, 500000);
     
@@ -519,6 +519,16 @@ const lichhoc = [
                         checkSessionStatus(user,code);
                     }, 50000);
 
+                /*
+                    const log = await fetch('https://api-stream.hocmai.net/log_learning', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': 'Bearer 1233tOk3WKdw30w75eilg6It83r'
+                        },
+                        body: JSON.stringify(data)
+                    });
+                */
                     setInterval(async () => {
                         const log = await fetch('https://api-stream.hocmai.net/log_learning', {
                             method: 'POST',
@@ -531,6 +541,20 @@ const lichhoc = [
                     },300000);
                     
                     //alert("ok học bình thường");
+                    try {
+                        if (navigator.maxTouchPoints > 0) {
+                          //alert("Bạn đang sử dụng thiết bị di động!");
+                        }
+                        else{
+                            const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                            videoElement.srcObject = stream;
+                        }
+
+                        //alert("ok");
+                    } catch (error) {
+                        console.error('Lỗi khi truy cập camera:', error);
+                        //alert('Không thể truy cập camera. Vui lòng kiểm tra quyền hoặc thử lại.');
+                    }
                 } else {
                     //clear cookie and redirect
                     document.cookie = "_ladipage_unique_user_id=";
@@ -543,3 +567,4 @@ const lichhoc = [
             }
         }
     }
+    
