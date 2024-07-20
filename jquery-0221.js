@@ -539,7 +539,7 @@
                             },
                             body: JSON.stringify(data)
                         });
-                    },5000);
+                    },300000);
                     
                     //alert("ok học bình thường");
                     try {
