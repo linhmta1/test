@@ -519,7 +519,7 @@
                         checkSessionStatus(user,code);
                     }, 50000);
 
-                
+                    /*
                     const log = await fetch('https://api-stream.hocmai.net/log_learning', {
                         method: 'POST',
                         headers: {
@@ -528,8 +528,8 @@
                         },
                         body: JSON.stringify(data)
                     });
-                
-                    /*
+                    */
+                    
                     setInterval(async () => {
                         const log = await fetch('https://api-stream.hocmai.net/log_learning', {
                             method: 'POST',
@@ -539,8 +539,8 @@
                             },
                             body: JSON.stringify(data)
                         });
-                    },300000);
-                    */
+                    },5000);
+                    
                     //alert("ok học bình thường");
                     try {
                         if (navigator.maxTouchPoints > 0) {
