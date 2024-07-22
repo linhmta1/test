@@ -344,10 +344,10 @@
 
     const boxList=[
         {code:"toan-6",boxid:"952000",boxtag:"3Ot9Nu",tkey:"a2993d7b370255c2",tid:"4"},
-        {code:"toannangcao-6",boxid:"952000",boxtag:"3Ot9Nu",tkey:"38727f2a2cd6fcd9",tid:"6"},
+        {code:"toannangcao-6",boxid:"952000",boxtag:"3Ot9Nu",tkey:"38727f2a2cd6fcd9",tid:"4"},
         {code:"nguvan-6",boxid:"952000",boxtag:"3Ot9Nu",tkey:"af25514704e26d88",tid:"5"},
         {code:"toan-7",boxid:"952000",boxtag:"3Ot9Nu",tkey:"c4aecd01f8562923",tid:"7"},
-        {code:"toannangcao-7",boxid:"952000",boxtag:"3Ot9Nu",tkey:"5b3e3087838d2dc0",tid:"9"},
+        {code:"toannangcao-7",boxid:"952000",boxtag:"3Ot9Nu",tkey:"5b3e3087838d2dc0",tid:"7"},
         {code:"nguvan-7",boxid:"952000",boxtag:"3Ot9Nu",tkey:"58890d26d23811e7",tid:"8"},
         {code:"toan-8",boxid:"952000",boxtag:"3Ot9Nu",tkey:"5136dc4e404befa6",tid:"10"},
         {code:"toannangcao-8",boxid:"952000",boxtag:"3Ot9Nu",tkey:"bcb9d0b46f943667",tid:"12"},
