@@ -437,7 +437,7 @@
                 if (!result.success) {
                     clearInterval(checkSessionInterval);
                     //gắn đoạn code logout bắt đăng nhập lại
-                    document.cookie = "_ladipage_unique_user_id=";
+                    // document.cookie = "_ladipage_unique_user_id=";
                     // window.location.href = "https://topuni.hocmai.vn/lophoc?subject="+code+"&return=multi";
                     
 
@@ -446,7 +446,7 @@
             })
             .catch(error => console.error('Error:', error));
         
-        checkCurrentTimeInSchedule(code, learn_number);
+        //checkCurrentTimeInSchedule(code, learn_number);
             
     }
 
