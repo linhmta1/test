@@ -376,7 +376,9 @@
       return undefined;
     }
     const today = new Date();
-    function checkCurrentTimeInSchedule(code, learn_number) {
+
+/*
+function checkCurrentTimeInSchedule(code, learn_number) {
         const now = new Date();
         const result = lichhoc.find(item => item.code === code && item.learn_number === learn_number);
     
@@ -393,6 +395,27 @@
             alert("Không tìm thấy lịch học.");
         }
     }
+*/
+function checkCurrentTimeInSchedule(code, learn_number) {
+        const now = new Date();
+        const result = lichhoc.filter(item => item.code === code && item.learn_number === learn_number && now >= item.start_time && now <= item.end_time);
+    
+        if (result.length>0) {
+            //if (now >= result.start_time && now <= result.end_time) {
+                //alert("ok");
+            //} else {
+                //clearInterval(checkSessionInterval);
+                //gắn đoạn code logout bắt đăng nhập lại
+                //document.cookie = "_ladipage_unique_user_id=";
+                //window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code;
+            //}
+        } else {
+            //alert("Không tìm thấy lịch học.");
+            document.cookie = "_ladipage_unique_user_id=";
+            window.location.href = "https://topuni.hocmai.vn/lophoc?subject="+code;
+        }
+    }
+
     function checkClassAvailability(subjectCode) {
       // Find classes for the specified subject
       const subjectClasses = lichhoc.filter(item => item.code === subjectCode);
@@ -446,7 +469,7 @@
             })
             .catch(error => console.error('Error:', error));
         
-        //checkCurrentTimeInSchedule(code, learn_number);
+        checkCurrentTimeInSchedule(code, learn_number);
             
     }
 
