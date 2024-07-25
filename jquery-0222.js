@@ -1,7 +1,8 @@
     
     const videoElement = document.getElementById('video');
     const startButton = document.getElementById('startButton');
-    
+    let status = 0;
+    var data;
     if(startButton!=null){
         startButton.addEventListener('click', async () => {
             try {
@@ -16,8 +17,8 @@
 
     function btoaUTF8(str) {
         const encoder = new TextEncoder();
-        const data = encoder.encode(str);
-        return btoa(String.fromCharCode(...data));
+        const outputdata = encoder.encode(str);
+        return btoa(String.fromCharCode(...outputdata));
     }
 
     function atobUTF8(base64Str) {
@@ -339,15 +340,15 @@
 {code:"vatli",subject:"Vật lí",start_time:new Date("7/30/2024 20:45:00"),end_time:new Date("7/30/2024 23:30:00"),learn_number:7},
 {code:"dochieukhoahoc",subject:"ĐH-KH",start_time:new Date("7/30/2024 21:15:00"),end_time:new Date("7/31/2024 0:00:00"),learn_number:6},
 {code:"diali",subject:"Địa lí",start_time:new Date("7/30/2024 20:15:00"),end_time:new Date("7/30/2024 23:00:00"),learn_number:7},
-        {code:"demo",subject:"Demo",start_time:new Date("6/30/2024 20:15:00"),end_time:new Date("7/30/2024 23:00:00"),learn_number:1}
+        {code:"demo",subject:"Demo",start_time:new Date("6/30/2024 20:15:00"),end_time:new Date("8/31/2024 23:59:00"),learn_number:1}
     ]
 
     const boxList=[
         {code:"toan-6",boxid:"952000",boxtag:"3Ot9Nu",tkey:"a2993d7b370255c2",tid:"4"},
-        {code:"toannangcao-6",boxid:"952000",boxtag:"3Ot9Nu",tkey:"38727f2a2cd6fcd9",tid:"4"},
+        {code:"toannangcao-6",boxid:"952000",boxtag:"3Ot9Nu",tkey:"38727f2a2cd6fcd9",tid:"6"},
         {code:"nguvan-6",boxid:"952000",boxtag:"3Ot9Nu",tkey:"af25514704e26d88",tid:"5"},
         {code:"toan-7",boxid:"952000",boxtag:"3Ot9Nu",tkey:"c4aecd01f8562923",tid:"7"},
-        {code:"toannangcao-7",boxid:"952000",boxtag:"3Ot9Nu",tkey:"5b3e3087838d2dc0",tid:"7"},
+        {code:"toannangcao-7",boxid:"952000",boxtag:"3Ot9Nu",tkey:"5b3e3087838d2dc0",tid:"9"},
         {code:"nguvan-7",boxid:"952000",boxtag:"3Ot9Nu",tkey:"58890d26d23811e7",tid:"8"},
         {code:"toan-8",boxid:"952000",boxtag:"3Ot9Nu",tkey:"5136dc4e404befa6",tid:"10"},
         {code:"toannangcao-8",boxid:"952000",boxtag:"3Ot9Nu",tkey:"bcb9d0b46f943667",tid:"12"},
@@ -360,7 +361,8 @@
         {code:"hoahoc-10",boxid:"952000",boxtag:"3Ot9Nu",tkey:"28cfea1a5b70f691",tid:"18"},
         {code:"toan-11",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b1e6b67cdf7a36bf",tid:"19"},
         {code:"vatli-11",boxid:"952000",boxtag:"3Ot9Nu",tkey:"0f2d03f2707e49c6",tid:"20"},
-        {code:"hoahoc-11",boxid:"952000",boxtag:"3Ot9Nu",tkey:"3210d81d3fc6be68",tid:"21"}
+        {code:"hoahoc-11",boxid:"952000",boxtag:"3Ot9Nu",tkey:"3210d81d3fc6be68",tid:"21"},
+        {code:"demo",boxid:"952000",boxtag:"3Ot9Nu",tkey:"a2993d7b370255c2",tid:"4"}
     ]
 
     function getBoxByCode(code) {
@@ -377,7 +379,23 @@
       return undefined;
     }
     const today = new Date();
-
+    function checkCurrentTimeInSchedule(code, learn_number) {
+        const now = new Date();
+        const result = lichhoc.find(item => item.code === code && item.learn_number === learn_number);
+    
+        if (result) {
+            if (now >= result.start_time && now <= result.end_time) {
+                //alert("ok");
+            } else {
+                clearInterval(checkSessionInterval);
+                //gắn đoạn code logout bắt đăng nhập lại
+                document.cookie = "_ladipage_unique_user_id=";
+                window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code;
+            }
+        } else {
+            alert("Không tìm thấy lịch học.");
+        }
+    }
     function checkClassAvailability(subjectCode) {
       // Find classes for the specified subject
       const subjectClasses = lichhoc.filter(item => item.code === subjectCode);
@@ -401,39 +419,42 @@
 
     let checkSessionInterval;
 
-    function checkSessionStatus(user,code) {
-            console.log("check ip");
-            // Tạo dữ liệu yêu cầu POST
-            const requestData = {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': 'Bearer 1233tOk3WKdw30w75eilg6It83r'
-                },
-                // Đặt body dữ liệu yêu cầu là một JSON với các thông tin cần gửi
-                body: JSON.stringify({ user })
-                // body: JSON.stringify({ action: 'check_session' })
-            };
+    function checkSessionStatus(user,code,learn_number) {
+        console.log("check ip");
+        // Tạo dữ liệu yêu cầu POST
+        const requestData = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer 1233tOk3WKdw30w75eilg6It83r'
+            },
+            // Đặt body dữ liệu yêu cầu là một JSON với các thông tin cần gửi
+            body: JSON.stringify({ user })
+            // body: JSON.stringify({ action: 'check_session' })
+        };
 
-            // Gửi yêu cầu POST đến API
-            fetch('https://api-stream.hocmai.net/check_session', requestData)
-                .then(response => response.json())
-                .then(result => {
-                    if (!result.success) {
-                        clearInterval(checkSessionInterval);
-                        //gắn đoạn code logout bắt đăng nhập lại
-                        document.cookie = "_ladipage_unique_user_id=";
-                        // window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code+"&return=multi";
-                        
+        // Gửi yêu cầu POST đến API
+        fetch('https://api-stream.hocmai.net/check_session', requestData)
+            .then(response => response.json())
+            .then(result => {
+                if (!result.success) {
+                    clearInterval(checkSessionInterval);
+                    //gắn đoạn code logout bắt đăng nhập lại
+                    document.cookie = "_ladipage_unique_user_id=";
+                    // window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code+"&return=multi";
+                    
 
-                        //alert('You have been logged out due to a login from another IP.');
-                    }
-                })
-                .catch(error => console.error('Error:', error));
+                    //alert('You have been logged out due to a login from another IP.');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        
+        checkCurrentTimeInSchedule(code, learn_number);
+            
     }
 
     function loading(){
-        console.log("onloading");
+        status=1;
         var c_user = getCookie("_ladipage_unique_user_id");
         var code = window.location.href.substring(33);
         
@@ -525,10 +546,10 @@
         // Chèn phần tử div mới vào trước thẻ div mục tiêu
         targetDiv.parentNode.insertBefore(signalDiv, targetDiv);
         const response = await fetch('https://api.ipify.org?format=json');
-        const data = await response.json();
+        const dataip = await response.json();
         const signal = document.getElementById('signal');
 
-        document.getElementById('signal').innerHTML=encodeBase64(data.ip);    
+        document.getElementById('signal').innerHTML=encodeBase64(dataip.ip);    
     }
 
     function moveSignal() {
@@ -554,6 +575,7 @@
 
     window.onload = async function () {
         loading();
+        status=2;
         try{
             //moveSignal();
             //setInterval(moveSignal, 3000);
@@ -585,11 +607,14 @@
         
         if(code.length > 0 && user.length > 0){
             try {
-              const data = {
+              data = {
                 user,
                 code,
-                learn_number
+                learn_number,
+                status
               };
+              
+                
               
                 const response = await fetch('https://api-stream.hocmai.net/check_user', {
                     method: 'POST',
@@ -609,7 +634,7 @@
                 if (result.success) {
                     //alert(JSON.stringify(result));
                     checkSessionInterval = setInterval(() => {
-                        checkSessionStatus(user,code);
+                        checkSessionStatus(user,code,learn_number);
                     }, 50000);
 
                     /*
@@ -622,8 +647,17 @@
                         body: JSON.stringify(data)
                     });
                     */
+                    const log = await fetch('https://api-stream.hocmai.net/log_learning', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': 'Bearer 1233tOk3WKdw30w75eilg6It83r'
+                        },
+                        body: JSON.stringify(data)
+                    });
                     
                     setInterval(async () => {
+                        data.status=status;
                         const log = await fetch('https://api-stream.hocmai.net/log_learning', {
                             method: 'POST',
                             headers: {
@@ -663,4 +697,3 @@
             }
         }
     }
-    
