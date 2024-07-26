@@ -536,7 +536,10 @@ function checkCurrentTimeInSchedule(code, learn_number) {
         iframe.frameBorder = '0';
         
         // Append the iframe to your desired container (e.g., <div id="cboxContainer"></div>)
-        document.getElementById('boxchat').appendChild(iframe); 
+        //document.getElementById('boxchat').appendChild(iframe);
+        setTimeout(function() {
+  document.getElementById('boxchat').appendChild(iframe);
+}, 5000); // 5000 milliseconds = 5 seconds
     }
 
     async function insertSignalDivIfNeeded(){
