@@ -157,7 +157,7 @@
 {code:"hoahoc",subject:"Hóa học",start_time:new Date("8/9/2024 21:15:00"),end_time:new Date("8/10/2024 0:00:00"),learn_number:8},
 {code:"diali",subject:"Địa lí",start_time:new Date("8/9/2024 21:15:00"),end_time:new Date("8/10/2024 0:00:00"),learn_number:8},
 {code:"hoahoc-11",subject:"Hóa học Lớp 11",start_time:new Date("8/10/2024 19:45:00"),end_time:new Date("8/10/2024 22:30:00"),learn_number:6},
-{code:"toan-10",subject:"Toán Lớp 10",start_time:new Date("8/10/2024 19:45:00"),end_time:new Date("8/10/2024 22:30:00"),learn_number:3},
+{code:"toan-10",subject:"Toán Lớp 10",start_time:new Date("8/10/2024 19:45:00"),end_time:new Date("8/10/2024 22:45:00"),learn_number:3},
 {code:"toannangcao-9",subject:"Toán Nâng cao Lớp 09",start_time:new Date("8/10/2024 17:45:00"),end_time:new Date("8/10/2024 20:30:00"),learn_number:12},
 {code:"toan-7",subject:"Toán Lớp 07",start_time:new Date("8/10/2024 19:45:00"),end_time:new Date("8/10/2024 22:30:00"),learn_number:106},
 {code:"toannangcao-7",subject:"Toán Nâng cao Lớp 07",start_time:new Date("8/10/2024 19:45:00"),end_time:new Date("8/10/2024 22:30:00"),learn_number:106},
