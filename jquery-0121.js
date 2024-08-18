@@ -95,7 +95,7 @@
 {code:"dochieukhoahoc",subject:"ĐH-KH",start_time:new Date("8/17/2024 21:15:00"),end_time:new Date("8/18/2024 0:00:00"),learn_number:9},
 {code:"nguvan",subject:"Ngữ văn",start_time:new Date("8/18/2024 21:15:00"),end_time:new Date("8/19/2024 0:00:00"),learn_number:9},
 {code:"hoahoc",subject:"Hóa học",start_time:new Date("8/18/2024 11:45:00"),end_time:new Date("8/18/2024 14:30:00"),learn_number:9},
-{code:"sinhhoc",subject:"Sinh học",start_time:new Date("8/18/2024 21:15:00"),end_time:new Date("8/19/2024 0:00:00"),learn_number:9},
+{code:"sinhhoc",subject:"Sinh học",start_time:new Date("8/18/2024 21:15:00"),end_time:new Date("8/19/2024 0:00:00"),learn_number:8},
 {code:"dochieukhoahoc",subject:"ĐH-KH",start_time:new Date("8/18/2024 20:15:00"),end_time:new Date("8/18/2024 23:00:00"),learn_number:9},
 {code:"toan",subject:"Toán",start_time:new Date("8/19/2024 21:15:00"),end_time:new Date("8/20/2024 0:00:00"),learn_number:9},
 {code:"vatli",subject:"Vật lí",start_time:new Date("8/19/2024 20:45:00"),end_time:new Date("8/19/2024 23:30:00"),learn_number:10},
