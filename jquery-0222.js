@@ -432,9 +432,6 @@
 {code:"vatli",subject:"Vật lí",start_time:new Date("8/30/2024 20:45:00"),end_time:new Date("8/30/2024 23:30:00"),learn_number:11},
 {code:"hoahoc",subject:"Hóa học",start_time:new Date("8/30/2024 21:15:00"),end_time:new Date("8/31/2024 0:00:00"),learn_number:11},
 {code:"diali",subject:"Địa lí",start_time:new Date("8/30/2024 21:15:00"),end_time:new Date("8/31/2024 0:00:00"),learn_number:11},
-{code:"toan",subject:"Toán",start_time:new Date("8/31/2024 20:15:00"),end_time:new Date("8/31/2024 23:00:00"),learn_number:11},
-{code:"nguvan",subject:"Ngữ văn",start_time:new Date("8/31/2024 20:15:00"),end_time:new Date("8/31/2024 23:00:00"),learn_number:11},
-{code:"tienganh",subject:"Tiếng Anh",start_time:new Date("8/31/2024 21:15:00"),end_time:new Date("9/1/2024 0:00:00"),learn_number:11},
         {code:"demo",subject:"Demo",start_time:new Date("6/30/2024 20:15:00"),end_time:new Date("8/31/2024 23:59:00"),learn_number:1}
     ]
 
