@@ -37,7 +37,7 @@
 {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("9/4/2024 19:45:00"),end_time:new Date("9/4/2024 22:30:00"),learn_number:11},
 {code:"vatli-11",subject:"Vật lí Lớp 11",start_time:new Date("9/5/2024 19:45:00"),end_time:new Date("9/5/2024 22:30:00"),learn_number:9},
 {code:"toan-10",subject:"Toán Lớp 10",start_time:new Date("9/5/2024 20:45:00"),end_time:new Date("9/5/2024 23:30:00"),learn_number:6},
-{code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("9/5/2024 19:45:00"),end_time:new Date("9/5/2024 22:30:00"),learn_number:19},
+{code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("9/5/2024 19:45:00"),end_time:new Date("9/5/2024 22:30:00"),learn_number:18},
 {code:"nguvan-8",subject:"Ngữ văn Lớp 08",start_time:new Date("9/5/2024 19:45:00"),end_time:new Date("9/5/2024 22:30:00"),learn_number:17},
 {code:"vatli-11",subject:"Vật lí Lớp 11",start_time:new Date("9/6/2024 21:15:00"),end_time:new Date("9/7/2024 0:00:00"),learn_number:9},
 {code:"hoahoc-10",subject:"Hóa học Lớp 10",start_time:new Date("9/6/2024 19:45:00"),end_time:new Date("9/6/2024 22:30:00"),learn_number:6},
