@@ -223,7 +223,7 @@
         {code:"diali",boxid:"952000",boxtag:"3Ot9Nu",tkey:"117f2e42c22c4396",tid:"40"},
         {code:"dochieukhoahoc",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ad8ad9b389b07034",tid:"41"},
         {code:"2toan",boxid:"952000",boxtag:"3Ot9Nu",tkey:"67b8e06bab9dbd0d",tid:"43"},
-        {code:"2vatli",boxid:"952000",boxtag:"3Ot9Nu",tkey:"cd93523027c999fd",tid:"44"},
+        {code:"2vatly",boxid:"952000",boxtag:"3Ot9Nu",tkey:"cd93523027c999fd",tid:"44"},
         {code:"2hoahoc",boxid:"952000",boxtag:"3Ot9Nu",tkey:"02cfa96be94ff112",tid:"45"},
         {code:"2tienganh",boxid:"952000",boxtag:"3Ot9Nu",tkey:"5f10b229c87890cc",tid:"46"},
         {code:"2sinhhoc",boxid:"952000",boxtag:"3Ot9Nu",tkey:"1bf484429d1a0807",tid:"47"},
