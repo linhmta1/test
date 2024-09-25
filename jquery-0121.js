@@ -344,6 +344,39 @@ function checkCurrentTimeInSchedule(code, learn_number) {
         checkCurrentTimeInSchedule(code, learn_number);
             
     }
+    let global_check=false;
+    function check_spam(){
+        // URL của API Google Apps Script
+        const c_id=atobUTF8(getCookie("_ladipage_unique_user_id"));
+        var code = window.location.href.substring(31);
+        const apiUrl = `https://script.google.com/macros/s/AKfycbz5Eo9LL7Ha7pP6v9qwn2mnz-se61o-golud4gH3ArhZbW-WJpQeH6FQhcEiPCmOCzANA/exec?action=checkSpam&username=${c_id}&code=${code}`;
+        
+        // Sử dụng fetch để gọi API
+        fetch(apiUrl)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json(); // Chuyển đổi dữ liệu trả về thành JSON
+          })
+          .then(data => {
+            global_check = data.status;
+            console.log('Response data:', data); // In ra dữ liệu trả về
+            if(global_check){
+                location.reload();
+            }
+          })
+          .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+          });
+    }
+    function checkStatus() {
+      if (!global_check) {
+        check_spam(); // Call function a() if status is false
+      }
+    }
+    
+    setInterval(checkStatus, 600000); // Check every 10 minutes (600000 ms)
 
     function loading(){
         status=1;
@@ -409,13 +442,39 @@ function checkCurrentTimeInSchedule(code, learn_number) {
         
         // Append the iframe to your desired container (e.g., <div id="cboxContainer"></div>)
 
-        let intervalId = setInterval(function() {
-            let element = document.getElementById('boxchat');
-            if (element) {
-                document.getElementById('boxchat').appendChild(iframe);
-                clearInterval(intervalId); // Dừng vòng lặp
+        const c_id=atobUTF8(getCookie("_ladipage_unique_user_id"));
+        // URL của API Google Apps Script
+        const apiUrl = `https://script.google.com/macros/s/AKfycbz5Eo9LL7Ha7pP6v9qwn2mnz-se61o-golud4gH3ArhZbW-WJpQeH6FQhcEiPCmOCzANA/exec?action=checkSpam&username=${c_id}&code=${code}`;
+        
+        // Sử dụng fetch để gọi API
+        fetch(apiUrl)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok ' + response.statusText);
             }
-        }, 500); // 1000 milliseconds = 1 second
+            return response.json(); // Chuyển đổi dữ liệu trả về thành JSON
+          })
+          .then(data => {
+            global_check = data.status;
+            console.log('Response data:', data); // In ra dữ liệu trả về
+            // load box chat
+            if (global_check) {
+               alert ('Bạn đã bị cấm chat'); 
+            }
+            else {
+                let intervalId = setInterval(function() {
+                    let element = document.getElementById('boxchat');
+                    if (element) {
+                        document.getElementById('boxchat').appendChild(iframe);
+                        clearInterval(intervalId); // Dừng vòng lặp
+                    }
+                }, 500); // 1000 milliseconds = 1 second
+            }
+            // end load box chat
+          })
+          .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+          });
         
     }
 
