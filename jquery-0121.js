@@ -208,7 +208,7 @@
 {code:"2toan",subject:"Toán",start_time:new Date("9/30/2024 21:15:00"),end_time:new Date("10/1/2024 0:00:00"),learn_number:4},
 {code:"2vatly",subject:"Vật lí",start_time:new Date("9/30/2024 20:45:00"),end_time:new Date("9/30/2024 23:30:00"),learn_number:4},
 {code:"2lichsu",subject:"Lịch sử",start_time:new Date("9/30/2024 20:15:00"),end_time:new Date("9/30/2024 23:00:00"),learn_number:4},
-        {code:"demo",subject:"Demo",start_time:new Date("6/30/2024 20:15:00"),end_time:new Date("8/31/2024 23:59:00"),learn_number:1}
+        {code:"demo",subject:"Demo",start_time:new Date("9/24/2024 20:15:00"),end_time:new Date("9/30/2024 23:59:00"),learn_number:1}
     ]
 
     const boxList=[
