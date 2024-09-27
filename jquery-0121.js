@@ -376,7 +376,7 @@ function checkCurrentTimeInSchedule(code, learn_number) {
       }
     }
     
-    setInterval(checkStatus, 1800000); // Check every 10 minutes (600000 ms)
+    setInterval(checkStatus, 3600000); // Check every 10 minutes (600000 ms)
 
     function loading(){
         status=1;
