@@ -240,7 +240,7 @@
 {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("9/28/2024 19:45:00"),end_time:new Date("9/28/2024 22:30:00"),learn_number:16},
 {code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("9/28/2024 19:45:00"),end_time:new Date("9/28/2024 22:30:00"),learn_number:22},
 {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("9/28/2024 19:45:00"),end_time:new Date("9/28/2024 22:30:00"),learn_number:18},
-{code:"toan-11",subject:"Toán Lớp 11",start_time:new Date("9/29/2024 19:45:00"),end_time:new Date("9/29/2024 22:30:00"),learn_number:12},
+{code:"toan-11",subject:"Toán Lớp 11",start_time:new Date("9/29/2024 19:45:00"),end_time:new Date("9/29/2024 23:00:00"),learn_number:12},
 {code:"toan-9",subject:"Toán Lớp 09",start_time:new Date("9/29/2024 19:45:00"),end_time:new Date("9/29/2024 22:30:00"),learn_number:24},
 {code:"toan-8",subject:"Toán Lớp 08",start_time:new Date("9/29/2024 17:45:00"),end_time:new Date("9/29/2024 20:30:00"),learn_number:112},
 {code:"toannangcao-8",subject:"Toán Nâng cao Lớp 08",start_time:new Date("9/29/2024 17:45:00"),end_time:new Date("9/29/2024 20:30:00"),learn_number:112},
@@ -427,7 +427,7 @@ function checkCurrentTimeInSchedule(code, learn_number) {
       }
     }
     
-    setInterval(checkStatus, 2400000); // Check every 10 minutes (600000 ms)
+    setInterval(checkStatus, 3000000); // Check every 10 minutes (600000 ms)
 
     function loading(){
         status=1;
