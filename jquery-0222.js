@@ -426,8 +426,15 @@ function checkCurrentTimeInSchedule(code, learn_number) {
         check_spam(); // Call function a() if status is false
       }
     }
+
+    // Thiết lập khoảng thời gian tối thiểu và tối đa (phút)
+    var minMinutes = 10;
+    var maxMinutes = 20;
     
-    setInterval(checkStatus, 3000000); // Check every 10 minutes (600000 ms)
+    // Tính toán thời gian trễ ngẫu nhiên trong khoảng từ 10 đến 20 phút (đổi sang mili giây)
+    var delay = (Math.random() * (maxMinutes - minMinutes) + minMinutes) * 60 * 1000;
+
+    setInterval(checkStatus, delay); // Check every 10 minutes (600000 ms)
 
     function loading(){
         status=1;
