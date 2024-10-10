@@ -255,7 +255,7 @@
         {code:"2hoahoc",subject:"Hóa học",start_time:new Date("10/31/2024 20:45:00"),end_time:new Date("10/31/2024 23:30:00"),learn_number:9},
         {code:"2lichsu",subject:"Lịch sử",start_time:new Date("10/31/2024 21:15:00"),end_time:new Date("11/1/2024 0:00:00"),learn_number:8},
         {code:"luyendedochieutsa",subject:"Đọc hiểu",start_time:new Date("10/31/2024 21:15:00"),end_time:new Date("11/1/2024 0:00:00"),learn_number:3},
-        {code:"demo",subject:"Demo",start_time:new Date("9/24/2024 20:15:00"),end_time:new Date("9/30/2024 23:59:00"),learn_number:1}
+        {code:"demo",subject:"Demo",start_time:new Date("9/24/2024 20:15:00"),end_time:new Date("10/30/2024 23:59:00"),learn_number:1}
     ]
 
     const boxList=[
