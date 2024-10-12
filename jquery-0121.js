@@ -109,6 +109,7 @@
         {code:"2toan",subject:"Toán",start_time:new Date("10/12/2024 20:15:00"),end_time:new Date("10/12/2024 23:00:00"),learn_number:6},
         {code:"2nguvan",subject:"Ngữ văn",start_time:new Date("10/12/2024 20:15:00"),end_time:new Date("10/12/2024 23:00:00"),learn_number:6},
         {code:"2dochieukhoahoc",subject:"ĐH-KH",start_time:new Date("10/12/2024 21:15:00"),end_time:new Date("10/13/2024 0:00:00"),learn_number:6},
+        {code:"dochieukhoahoc",subject:"ĐH-KH",start_time:new Date("10/12/2024 21:15:00"),end_time:new Date("10/13/2024 0:00:00"),learn_number:16},
         {code:"nguvan",subject:"Ngữ văn",start_time:new Date("10/13/2024 21:15:00"),end_time:new Date("10/14/2024 0:00:00"),learn_number:17},
         {code:"hoahoc",subject:"Hóa học",start_time:new Date("10/13/2024 11:45:00"),end_time:new Date("10/13/2024 14:30:00"),learn_number:17},
         {code:"sinhhoc",subject:"Sinh học",start_time:new Date("10/13/2024 21:15:00"),end_time:new Date("10/14/2024 0:00:00"),learn_number:15},
