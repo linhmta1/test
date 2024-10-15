@@ -230,7 +230,7 @@
         {code:"toannangcao-7",subject:"Toán Nâng cao Lớp 07",start_time:new Date("10/23/2024 19:45:00"),end_time:new Date("10/23/2024 22:30:00"),learn_number:33},
         {code:"toannangcao-6",subject:"Toán Nâng cao Lớp 06",start_time:new Date("10/23/2024 19:45:00"),end_time:new Date("10/23/2024 22:30:00"),learn_number:23},
         {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("10/23/2024 19:45:00"),end_time:new Date("10/23/2024 22:30:00"),learn_number:23},
-        {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("10/23/2024 19:45:00"),end_time:new Date("10/23/2024 22:30:00"),learn_number:#VALUE!},
+        {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("10/23/2024 19:45:00"),end_time:new Date("10/23/2024 22:30:00"),learn_number:25},
         {code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("10/23/2024 19:45:00"),end_time:new Date("10/23/2024 22:30:00"),learn_number:31},
         {code:"vatli-11",subject:"Vật lí Lớp 11",start_time:new Date("10/24/2024 19:45:00"),end_time:new Date("10/24/2024 22:30:00"),learn_number:16},
         {code:"toan-10",subject:"Toán Lớp 10",start_time:new Date("10/24/2024 20:45:00"),end_time:new Date("10/24/2024 23:30:00"),learn_number:13},
