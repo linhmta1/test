@@ -191,7 +191,7 @@
 {code:"sinhhoc",subject:"Tổng ôn Sinh học",start_time:new Date("10/23/2024 21:15:00"),end_time:new Date("10/24/2024 0:00:00"),learn_number:16},
 {code:"2tienganh",subject:"Tổng ôn Tiếng Anh",start_time:new Date("10/23/2024 21:15:00"),end_time:new Date("10/24/2024 0:00:00"),learn_number:7},
 {code:"2sinhhoc",subject:"Tổng ôn Sinh học",start_time:new Date("10/23/2024 21:15:00"),end_time:new Date("10/24/2024 0:00:00"),learn_number:7},
-{code:"luyendetoantsa",subject:"Luyện đề Toán",start_time:new Date("10/23/2024 21:15:00"),end_time:new Date("10/24/2024 0:00:00"),learn_number:1},
+{code:"luyendetoantsa",subject:"Luyện đề Toán",start_time:new Date("10/23/2024 21:15:00"),end_time:new Date("10/24/2024 0:45:00"),learn_number:1},
 {code:"hoahoc",subject:"Tổng ôn Hóa học",start_time:new Date("10/24/2024 11:45:00"),end_time:new Date("10/24/2024 14:30:00"),learn_number:19},
 {code:"vatli",subject:"Tổng ôn Vật lí",start_time:new Date("10/24/2024 20:45:00"),end_time:new Date("10/24/2024 23:30:00"),learn_number:18},
 {code:"2vatly",subject:"Tổng ôn Vật lí",start_time:new Date("10/24/2024 20:45:00"),end_time:new Date("10/24/2024 23:30:00"),learn_number:7},
