@@ -41,7 +41,7 @@
                 //alert('DevTools đang mở. Vui lòng đóng nó và F5 để tiếp tục sử dụng trang này.');
             }
         })();
-        */
+        
         //  End Đo thời gian thực thi - phát hiện Devtools
 
         // Vô hiệu hóa các phím tắt DevTools
@@ -67,7 +67,7 @@
         });
 
         // Hiển thị cảnh báo nếu DevTools mở
-        /*
+        
         setInterval(function() {
             if (devToolsOpen) {
                 document.body.innerHTML = '<h1>DevTools đang mở. Vui lòng đóng nó và F5 để tiếp tục sử dụng trang này.</h1>';
@@ -75,3 +75,41 @@
             }
         }, 1000);
         */
+
+    class DevToolsChecker extends Error {
+    toString() {
+        return "DevToolsChecker Error";
+    }
+
+    get message() {
+        onDevToolOpen();
+        return "DevTools đang mở";
+    }
+}
+
+function onDevToolOpen() {
+    const currentDomain = window.location.hostname;
+        if (currentDomain === "topuni.hocmai.vn") {
+        window.location.href = "https://hocmai.vn";
+        } else if (currentDomain === "topclass.hocmai.vn") {
+        window.location.href = "https://topclass.hocmai.vn/danhsachlophoc";
+        }
+}
+
+console.log(new DevToolsChecker());
+document.addEventListener('keydown', function(event) {
+    if (
+        event.key === 'F12' ||
+        (event.ctrlKey && event.shiftKey && event.key === 'I') ||
+        (event.ctrlKey && event.shiftKey && event.key === 'J') ||
+        (event.ctrlKey && event.shiftKey && event.key === 'C') ||
+        (event.ctrlKey && event.key === 'U')
+    ) {
+        event.preventDefault();
+    }
+});
+
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
+
