@@ -285,6 +285,7 @@ const lichhoc = [
     { code: "tienganh", subject: "Tổng ôn Tiếng Anh", start_time: new Date("11/30/2024 21:15:00"), end_time: new Date("12/1/2024 0:00:00"), learn_number: 23 },
     { code: "2dochieukhoahoc", subject: "Tổng ôn ĐH-KH", start_time: new Date("11/30/2024 21:15:00"), end_time: new Date("12/1/2024 0:00:00"), learn_number: 13 },
     { code: "luyendekhoahoctsa", subject: "Luyện đề Khoa học", start_time: new Date("11/30/2024 21:15:00"), end_time: new Date("12/1/2024 0:00:00"), learn_number: 9 },
+    { code: "mentorsayhi", subject: "Mentor say Hi", start_time: new Date("11/15/2024 21:15:00"), end_time: new Date("11/16/2024 00:00:00"), learn_number:1, lesson_name: "Muốn đỗ Bách khoa - Hỏi sinh viên Bách khoa", teacher: "Nguyễn Hợp Huy"},
     { code: "demo", subject: "Demo", start_time: new Date("10/29/2024 20:15:00"), end_time: new Date("11/30/2024 23:59:00"), learn_number: 1 }
 ];
 
