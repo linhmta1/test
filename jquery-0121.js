@@ -430,8 +430,8 @@ function checkSessionStatus(user, code, learn_number) {
             if (!result.success) {
                 clearInterval(checkSessionInterval);
                 //gắn đoạn code logout bắt đăng nhập lại
-                //document.cookie = "_ladipage_unique_user_id=";
-                //window.location.href = "https://topuni.hocmai.vn/lichhoc"+"&return=multi";
+                document.cookie = "_ladipage_unique_user_id=";
+                window.location.href = "https://topuni.hocmai.vn/lichhoc"+"&return=multi";
 
                 //alert('You have been logged out due to a login from another IP.');
             }
