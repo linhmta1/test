@@ -229,7 +229,7 @@ const lichhoc = [
     { code: "hoahoc", subject: "Tổng ôn Hóa học", start_time: new Date("11/24/2024 11:45:00"), end_time: new Date("11/24/2024 14:30:00"), learn_number: 23 },
     { code: "2hoahoc", subject: "Tổng ôn Hóa học", start_time: new Date("11/24/2024 20:45:00"), end_time: new Date("11/24/2024 23:30:00"), learn_number: 12 },
     { code: "nguvan", subject: "Tổng ôn Ngữ văn", start_time: new Date("11/24/2024 21:15:00"), end_time: new Date("11/25/2024 0:00:00"), learn_number: 23 },
-    { code: "sinhhoc", subject: "Tổng ôn Sinh học", start_time: new Date("11/24/2024 21:15:00"), end_time: new Date("11/25/2024 0:00:00"), learn_number: 21 },
+    { code: "sinhhoc", subject: "Tổng ôn Sinh học", start_time: new Date("11/24/2024 21:15:00"), end_time: new Date("11/25/2024 0:30:00"), learn_number: 21 },
     { code: "2sinhhoc", subject: "Tổng ôn Sinh học", start_time: new Date("11/24/2024 21:15:00"), end_time: new Date("11/25/2024 0:00:00"), learn_number: 12 },
     { code: "2dochieukhoahoc", subject: "Tổng ôn ĐH-KH", start_time: new Date("11/24/2024 21:15:00"), end_time: new Date("11/25/2024 0:00:00"), learn_number: 12 },
     { code: "luyendetoantsa", subject: "Luyện đề Toán", start_time: new Date("11/24/2024 21:15:00"), end_time: new Date("11/25/2024 0:00:00"), learn_number: 6 },
