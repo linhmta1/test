@@ -439,7 +439,7 @@
         {code:"toan-7",subject:"Toán Lớp 07",start_time:new Date("12/31/2024 19:45:00"),end_time:new Date("12/31/2024 22:30:00"),learn_number:52},
         {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("12/31/2024 17:45:00"),end_time:new Date("12/31/2024 20:30:00"),learn_number:44},
         {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("12/31/2024 19:45:00"),end_time:new Date("12/31/2024 22:30:00"),learn_number:44},
-        {code:"demo",subject:"Demo",start_time:new Date("6/30/2024 20:15:00"),end_time:new Date("10/30/2024 23:59:00"),learn_number:1}
+        {code:"demo",subject:"Demo",start_time:new Date("11/30/2024 20:15:00"),end_time:new Date("12/31/2024 23:59:00"),learn_number:1}
     ]
 
     const boxList=[
