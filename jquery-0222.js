@@ -462,7 +462,7 @@
         {code:"toan-11",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b1e6b67cdf7a36bf",tid:"19"},
         {code:"vatli-11",boxid:"952000",boxtag:"3Ot9Nu",tkey:"0f2d03f2707e49c6",tid:"20"},
         {code:"hoahoc-11",boxid:"952000",boxtag:"3Ot9Nu",tkey:"3210d81d3fc6be68",tid:"21"},
-        {code:"demo",boxid:"952000",boxtag:"3Ot9Nu",tkey:"a2993d7b370255c2",tid:"4"}
+        {code:"demo",boxid:"952000",boxtag:"3Ot9Nu",tkey:"a2993d7b370255c2",tid:"1"}
     ]
 
     function getBoxByCode(code) {
