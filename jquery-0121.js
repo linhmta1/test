@@ -318,7 +318,7 @@ const lichhoc = [
     {code:"luyendetiengvietvact",subject:"[LĐ V-ACT] Tiếng Việt",start_time:new Date("12/18/2024 20:15:00"),end_time:new Date("12/19/2024 0:00:00"),learn_number:100,lesson_name:"Sử dụng Ngôn ngữ - Tiếng Việt_Định hướng, kế hoạch ôn thi nước rút",teacher:"Vương Thúy Hằng"},
     {code:"luyendetienganhvact",subject:"[LĐ V-ACT] Tiếng Anh",start_time:new Date("12/22/2024 19:45:00"),end_time:new Date("12/22/2024 23:30:00"),learn_number:100,lesson_name:"Sử dụng Ngôn ngữ - Tiếng Anh_Định hướng, kế hoạch ôn thi nước rút",teacher:"Bùi Thế Phương"},
     {code:"luyendetoanvact",subject:"[LĐ V-ACT] Toán",start_time:new Date("12/23/2024 21:15:00"),end_time:new Date("12/24/2024 1:00:00"),learn_number:100,lesson_name:"Toán, Logic và phân tích số liệu_Định hướng, kế hoạch ôn thi nước rút",teacher:"Nguyễn Hoài Nam"},
-    {code:"luyendeslkhvact",subject:"[LĐ V-ACT] SLKH",start_time:new Date("12/30/2024 21:15:00"),end_time:new Date("12/31/2024 1:00:00"),learn_number:1,lesson_name:"SLKH_PP/ Kĩ năng làm bài_Luyện đề 01",teacher:"Vũ Khắc Ngọc"},
+    {code:"luyendeslkhvact",subject:"[LĐ V-ACT] Suy luận khoa học",start_time:new Date("12/30/2024 21:15:00"),end_time:new Date("12/31/2024 1:00:00"),learn_number:1,lesson_name:"Suy luận Khoa học_Phương pháp/Kĩ năng làm bài_Luyện đề 01",teacher:"Vũ Khắc Ngọc"},
     { code: "demo", subject: "Demo", start_time: new Date("10/29/2024 20:15:00"), end_time: new Date("11/30/2024 23:59:00"), learn_number: 1 }
 ];
 
