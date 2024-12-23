@@ -320,6 +320,7 @@ const lichhoc = [
     {code:"luyendeslkhvact",subject:"[LĐ V-ACT] Suy luận khoa học",start_time:new Date("12/30/2024 21:15:00"),end_time:new Date("12/31/2024 1:00:00"),learn_number:1,lesson_name:"Suy luận Khoa học_Phương pháp/Kĩ năng làm bài_Luyện đề 01",teacher:"Vũ Khắc Ngọc"},
     {code:"luyendetiengvietvactgop2chatcheck",subject:"[LĐ V-ACT] Tiếng Việt",start_time:new Date("12/18/2024 20:15:00"),end_time:new Date("12/19/2024 0:00:00"),learn_number:100,lesson_name:"Sử dụng Ngôn ngữ - Tiếng Việt_Định hướng, kế hoạch ôn thi nước rút",teacher:"Vương Thúy Hằng"},
     {code:"luyendengonnguvactgop2chatcheck",subject:"[LĐ V-ACT] Tiếng Anh",start_time:new Date("12/22/2024 19:45:00"),end_time:new Date("12/22/2024 23:30:00"),learn_number:100,lesson_name:"Sử dụng Ngôn ngữ - Tiếng Anh_Định hướng, kế hoạch ôn thi nước rút",teacher:"Bùi Thế Phương"},
+    {code:"luyendetoanvactgop2chatcheck",subject:"[LĐ V-ACT] Toán",start_time:new Date("12/23/2024 21:15:00"),end_time:new Date("12/24/2024 1:00:00"),learn_number:100,lesson_name:"Toán, Logic và phân tích số liệu_Định hướng, kế hoạch ôn thi nước rút",teacher:"Nguyễn Hoài Nam"},
     {code:"vatli",subject:"Vật lí",start_time:new Date("12/23/2024 20:45:00"),end_time:new Date("12/24/2024 0:30:00"),learn_number:27,lesson_name:"Hiện tượng phóng xạ (P1)",teacher:"Nguyễn Ngọc Hải"},
     {code:"vatli",subject:"Vật lí",start_time:new Date("12/24/2024 20:45:00"),end_time:new Date("12/25/2024 0:30:00"),learn_number:27,lesson_name:"Hiện tượng phóng xạ (P1)",teacher:"Nguyễn Ngọc Hải"},
     {code:"vatli",subject:"Vật lí",start_time:new Date("12/26/2024 20:45:00"),end_time:new Date("12/27/2024 0:30:00"),learn_number:27,lesson_name:"Hiện tượng phóng xạ (P1)",teacher:"Nguyễn Ngọc Hải"},
@@ -368,7 +369,7 @@ const boxList = [
     {code:"luyendetoanvact",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d81a5cb731eeafda",tid:"68"},
     {code:"luyendeslkhvact",boxid:"952000",boxtag:"3Ot9Nu",tkey:"54f1fe80e1f5ee79",tid:"69"},
     {code:"luyendeptslvact",boxid:"952000",boxtag:"3Ot9Nu",tkey:"697e51d140376016",tid:"70"},
-    {code:"luyendengonnguvactgop2chatcheck",boxid:"952000",boxtag:"3Ot9Nu",tkey:"179d9866911dede2",tid:"67"},
+    {code:"luyendetoanvactgop2chatcheck",boxid:"952000",boxtag:"3Ot9Nu",tkey:"179d9866911dede2",tid:"68"},
     { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
 ];
 
