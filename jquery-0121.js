@@ -369,7 +369,7 @@ const boxList = [
     {code:"luyendetoanvact",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d81a5cb731eeafda",tid:"68"},
     {code:"luyendeslkhvact",boxid:"952000",boxtag:"3Ot9Nu",tkey:"54f1fe80e1f5ee79",tid:"69"},
     {code:"luyendeptslvact",boxid:"952000",boxtag:"3Ot9Nu",tkey:"697e51d140376016",tid:"70"},
-    {code:"luyendetoanvactgop2chatcheck",boxid:"952000",boxtag:"3Ot9Nu",tkey:"179d9866911dede2",tid:"68"},
+    {code:"luyendetoanvactgop2chatcheck",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d81a5cb731eeafda",tid:"68"},
     { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
 ];
 
