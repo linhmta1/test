@@ -320,6 +320,14 @@ const lichhoc = [
     {code:"luyendeslkhvact",subject:"[LĐ V-ACT] Suy luận khoa học",start_time:new Date("12/30/2024 21:15:00"),end_time:new Date("12/31/2024 1:00:00"),learn_number:1,lesson_name:"Suy luận Khoa học_Phương pháp/Kĩ năng làm bài_Luyện đề 01",teacher:"Vũ Khắc Ngọc"},
     {code:"luyendetiengvietvactgop2chatcheck",subject:"[LĐ V-ACT] Tiếng Việt",start_time:new Date("12/18/2024 20:15:00"),end_time:new Date("12/19/2024 0:00:00"),learn_number:100,lesson_name:"Sử dụng Ngôn ngữ - Tiếng Việt_Định hướng, kế hoạch ôn thi nước rút",teacher:"Vương Thúy Hằng"},
     {code:"luyendengonnguvactgop2chatcheck",subject:"[LĐ V-ACT] Tiếng Anh",start_time:new Date("12/22/2024 19:45:00"),end_time:new Date("12/22/2024 23:30:00"),learn_number:100,lesson_name:"Sử dụng Ngôn ngữ - Tiếng Anh_Định hướng, kế hoạch ôn thi nước rút",teacher:"Bùi Thế Phương"},
+    {code:"vatli",subject:"Vật lí",start_time:new Date("12/23/2024 20:45:00"),end_time:new Date("12/24/2024 0:30:00"),learn_number:27,lesson_name:"Hiện tượng phóng xạ (P1)",teacher:"Nguyễn Ngọc Hải"},
+    {code:"vatli",subject:"Vật lí",start_time:new Date("12/24/2024 20:45:00"),end_time:new Date("12/25/2024 0:30:00"),learn_number:27,lesson_name:"Hiện tượng phóng xạ (P1)",teacher:"Nguyễn Ngọc Hải"},
+    {code:"vatli",subject:"Vật lí",start_time:new Date("12/26/2024 20:45:00"),end_time:new Date("12/27/2024 0:30:00"),learn_number:27,lesson_name:"Hiện tượng phóng xạ (P1)",teacher:"Nguyễn Ngọc Hải"},
+    {code:"vatli",subject:"Vật lí",start_time:new Date("12/27/2024 20:45:00"),end_time:new Date("12/28/2024 0:30:00"),learn_number:27,lesson_name:"Hiện tượng phóng xạ (P1)",teacher:"Nguyễn Ngọc Hải"},
+    {code:"vatli",subject:"Vật lí",start_time:new Date("12/30/2024 20:45:00"),end_time:new Date("12/31/2024 0:30:00"),learn_number:28,lesson_name:"Hiện tượng phóng xạ (P2)",teacher:"Nguyễn Ngọc Hải"},
+    {code:"vatli",subject:"Vật lí",start_time:new Date("12/31/2024 20:45:00"),end_time:new Date("1/1/2025 0:30:00"),learn_number:28,lesson_name:"Hiện tượng phóng xạ (P2)",teacher:"Nguyễn Ngọc Hải"},
+    {code:"mentorsayhi",subject:"mentor",start_time:new Date("12/24/2024 21:15:00"),end_time:new Date("12/25/2024 1:00:00"),learn_number:12,lesson_name:"Ôn tập học kì 1 - Chủ đề Các đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm",teacher:"Nguyễn Hợp Huy"},
+    {code:"mentorsayhi",subject:"mentor",start_time:new Date("12/28/2024 21:15:00"),end_time:new Date("12/29/2024 1:00:00"),learn_number:13,lesson_name:"Hướng dẫn Đề B_TSA2025 - Phần Tư duy toán học",teacher:"Nguyễn Hợp Huy"},
     { code: "demo", subject: "Demo", start_time: new Date("10/29/2024 20:15:00"), end_time: new Date("11/30/2024 23:59:00"), learn_number: 1 }
 ];
 
