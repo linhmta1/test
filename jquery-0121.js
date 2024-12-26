@@ -189,7 +189,7 @@ const lichhoc = [
     {code:"luyendetoanct1tsa",subject:"[LĐ TSA CT1] Toán",start_time:new Date("1/12/2025 21:15:00"),end_time:new Date("1/13/2025 1:00:00"),learn_number:2,lesson_name:"Luyện đề TSA25B - Phần Tư duy Toán học",teacher:"Nguyễn Minh Thắng"},
     {code:"luyendedochieuct2tsa",subject:"[LĐ TSA CT2] Đọc hiểu",start_time:new Date("1/12/2025 21:15:00"),end_time:new Date("1/13/2025 1:00:00"),learn_number:2,lesson_name:"Luyện đề TSA25CD - Phần Tư duy Đọc hiểu",teacher:"Vũ Khắc Ngọc"},
     {code:"luyendetoanct2tsa",subject:"[LĐ TSA CT2] Toán",start_time:new Date("1/12/2025 21:15:00"),end_time:new Date("1/13/2025 1:00:00"),learn_number:2,lesson_name:"Luyện đề TSA25B - Phần Tư duy Toán học",teacher:"Nguyễn Minh Thắng"},
-    { code: "demo", subject: "Demo", start_time: new Date("12/26/2024 10:15:00"), end_time: new Date("11/30/2024 10:59:00"), learn_number: 1 }
+    { code: "demo", subject: "Demo", start_time: new Date("12/26/2024 20:15:00"), end_time: new Date("11/30/2024 20:59:00"), learn_number: 1 }
 ];
 
 const boxList = [
