@@ -104,8 +104,8 @@ const lichhoc = [
     {code:"toannangcao-7",subject:"Toán Nâng cao Lớp 07",start_time:new Date("12/11/2024 19:45:00"),end_time:new Date("12/11/2024 22:30:00"),learn_number:47,lesson_name:"Ôn tập học kì I Đề số 01",teacher:"Lê Ngọc Diên"},
     {code:"toannangcao-6",subject:"Toán Nâng cao Lớp 06",start_time:new Date("12/11/2024 19:45:00"),end_time:new Date("12/11/2024 22:30:00"),learn_number:37,lesson_name:"Hệ thống kiến thức theo chủ đề (P1)",teacher:"Nguyễn Thị Nhung"},
     {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("12/11/2024 19:45:00"),end_time:new Date("12/11/2024 22:30:00"),learn_number:37,lesson_name:"Hệ thống kiến thức theo chủ đề (P1)",teacher:"Nguyễn Thị Nhung"},
-    "{code:""nguvan-6"",subject:""Ngữ văn Lớp 06"",start_time:new Date(""12/11/2024 19:45:00""),end_time:new Date(""12/11/2024 22:30:00""),learn_number:39,lesson_name:""Kĩ năng viết: Tập làm một bài thơ lục bát
-    Viết đoạn văn thể hiện cảm xúc về một bài thơ lục bát"",teacher:""Hương Giang""},"
+    {code:""nguvan-6"",subject:""Ngữ văn Lớp 06"",start_time:new Date(""12/11/2024 19:45:00""),end_time:new Date(""12/11/2024 22:30:00""),learn_number:39,lesson_name:""Kĩ năng viết: Tập làm một bài thơ lục bát
+    Viết đoạn văn thể hiện cảm xúc về một bài thơ lục bát"",teacher:""Hương Giang""},
     {code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("12/11/2024 19:45:00"),end_time:new Date("12/11/2024 22:30:00"),learn_number:45,lesson_name:"Kĩ năng viết bài văn văn thuyết minh về quy tắc, luận lệ trong một hoạt động hay trò chơi",teacher:"Hoàng Thị Tuyết"},
     {code:"vatli-11",subject:"Vật lí Lớp 11",start_time:new Date("12/12/2024 19:45:00"),end_time:new Date("12/12/2024 22:30:00"),learn_number:23,lesson_name:"Bài toán tương tác của hệ nhiều điện tích",teacher:"Thiều Thị Dung"},
     {code:"toan-10",subject:"Toán Lớp 10",start_time:new Date("12/12/2024 20:45:00"),end_time:new Date("12/12/2024 23:30:00"),learn_number:20,lesson_name:"Tích vô hướng của hai vecto",teacher:"Nguyễn Thị Khuyên"},
@@ -137,8 +137,8 @@ const lichhoc = [
     {code:"toannangcao-7",subject:"Toán Nâng cao Lớp 07",start_time:new Date("12/15/2024 19:45:00"),end_time:new Date("12/15/2024 22:30:00"),learn_number:46,lesson_name:"Các dạng bài trọng tâm về yếu tố thống kê (P2)",teacher:"Chu Thị Lâm Oanh"},
     {code:"toannangcao-6",subject:"Toán Nâng cao Lớp 06",start_time:new Date("12/15/2024 19:45:00"),end_time:new Date("12/15/2024 22:30:00"),learn_number:119,lesson_name:"CĐ. Rút gọn tổng dãy lũy thừa cùng cơ số",teacher:"Trần Ngọc Hà"},
     {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("12/15/2024 19:45:00"),end_time:new Date("12/15/2024 22:30:00"),learn_number:119,lesson_name:"CĐ. Rút gọn tổng dãy lũy thừa cùng cơ số",teacher:"Trần Ngọc Hà"},
-    "{code:""nguvan-6"",subject:""Ngữ văn Lớp 06"",start_time:new Date(""12/15/2024 19:45:00""),end_time:new Date(""12/15/2024 22:30:00""),learn_number:39,lesson_name:""Kĩ năng viết: Tập làm một bài thơ lục bát
-    Viết đoạn văn thể hiện cảm xúc về một bài thơ lục bát"",teacher:""Nguyễn Thị Liệu""},"
+    {code:""nguvan-6"",subject:""Ngữ văn Lớp 06"",start_time:new Date(""12/15/2024 19:45:00""),end_time:new Date(""12/15/2024 22:30:00""),learn_number:39,lesson_name:""Kĩ năng viết: Tập làm một bài thơ lục bát
+    Viết đoạn văn thể hiện cảm xúc về một bài thơ lục bát"",teacher:""Nguyễn Thị Liệu""},
     {code:"nguvan-8",subject:"Ngữ văn Lớp 08",start_time:new Date("12/15/2024 19:45:00"),end_time:new Date("12/15/2024 22:30:00"),learn_number:47,lesson_name:"Thực hành tiếng Việt: Ôn tập từ Hán Việt, thành ngữ, tục ngữ",teacher:"Nguyễn Thị Thanh Phương"},
     {code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("12/15/2024 19:45:00"),end_time:new Date("12/15/2024 22:30:00"),learn_number:47,lesson_name:"Ôn tập học kì I (P1)",teacher:"Trần Thị Thanh Xuân"},
     {code:"vatli-10",subject:"Vật lí Lớp 10",start_time:new Date("12/16/2024 21:15:00"),end_time:new Date("12/17/2024 0:00:00"),learn_number:20,lesson_name:"Moment lực và cân bằng moment lực",teacher:"Nguyễn Thành Đạt"},
