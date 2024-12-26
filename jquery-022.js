@@ -328,7 +328,7 @@
 {code:"vatli",subject:"Vật lí",start_time:new Date("7/30/2024 20:45:00"),end_time:new Date("7/30/2024 23:30:00"),learn_number:7},
 {code:"dochieukhoahoc",subject:"ĐH-KH",start_time:new Date("7/30/2024 21:15:00"),end_time:new Date("7/31/2024 0:00:00"),learn_number:6},
 {code:"diali",subject:"Địa lí",start_time:new Date("7/30/2024 20:15:00"),end_time:new Date("7/30/2024 23:00:00"),learn_number:7},
-        {code:"demo",subject:"Demo",start_time:new Date("6/30/2024 20:15:00"),end_time:new Date("7/30/2024 23:00:00"),learn_number:1}
+        {code:"demo",subject:"Demo",start_time:new Date("12/26/2024 10:15:00"),end_time:new Date("12/26/2024 10:50:00"),learn_number:1}
     ]
     const today = new Date();
 
