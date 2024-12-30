@@ -28,7 +28,7 @@
     }
     
     const lichhoc = [
-        {code:"hoahoc",subject:"Hóa học",start_time:new Date("11/28/2024 11:45:00"),end_time:new Date("11/28/2024 15:30:00"),learn_number:24},
+        {code:"vatli-10",subject:"Vật lí Lớp 10",start_time:new Date("12/30/2024 21:15:00"),end_time:new Date("12/31/2024 0:00:00"),learn_number:22},
         {code:"toan-9",subject:"Toán Lớp 09",start_time:new Date("12/30/2024 19:45:00"),end_time:new Date("12/30/2024 22:30:00"),learn_number:49},
         {code:"nguvan-9",subject:"Ngữ văn Lớp 09",start_time:new Date("12/30/2024 19:45:00"),end_time:new Date("12/30/2024 22:30:00"),learn_number:26},
         {code:"toan-8",subject:"Toán Lớp 08",start_time:new Date("12/30/2024 17:45:00"),end_time:new Date("12/30/2024 20:30:00"),learn_number:52},
