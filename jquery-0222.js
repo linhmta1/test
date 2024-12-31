@@ -42,8 +42,6 @@
         {code:"toan-7",subject:"Toán Lớp 07",start_time:new Date("12/31/2024 19:45:00"),end_time:new Date("12/31/2024 22:30:00"),learn_number:52},
         {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("12/31/2024 17:45:00"),end_time:new Date("12/31/2024 20:30:00"),learn_number:44},
         {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("12/31/2024 19:45:00"),end_time:new Date("12/31/2024 22:30:00"),learn_number:44},
-        {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("1/1/2025 19:45:00"),end_time:new Date("1/1/2025 22:30:00"),learn_number:43},
-        {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("1/1/2025 19:45:00"),end_time:new Date("1/1/2025 22:30:00"),learn_number:45},
         {code:"vatli-11",subject:"Vật lí Lớp 11",start_time:new Date("1/2/2025 19:45:00"),end_time:new Date("1/2/2025 22:30:00"),learn_number:26},
         {code:"toan-10",subject:"Toán Lớp 10",start_time:new Date("1/2/2025 20:45:00"),end_time:new Date("1/2/2025 23:30:00"),learn_number:23},
         {code:"toan-9",subject:"Toán Lớp 09",start_time:new Date("1/2/2025 19:45:00"),end_time:new Date("1/2/2025 22:30:00"),learn_number:50},
@@ -187,15 +185,10 @@
         {code:"vatli-11",subject:"Vật lí Lớp 11",start_time:new Date("1/23/2025 19:45:00"),end_time:new Date("1/23/2025 22:30:00"),learn_number:29},
         {code:"toan-10",subject:"Toán Lớp 10",start_time:new Date("1/23/2025 20:45:00"),end_time:new Date("1/23/2025 23:30:00"),learn_number:26},
         {code:"toan-9",subject:"Toán Lớp 09",start_time:new Date("1/23/2025 19:45:00"),end_time:new Date("1/23/2025 22:30:00"),learn_number:56},
-        {code:"toan-7",subject:"Toán Lớp 07",start_time:new Date("1/23/2025 19:45:00"),end_time:new Date("1/23/2025 22:30:00"),learn_number:57},
         {code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("1/23/2025 19:45:00"),end_time:new Date("1/23/2025 22:30:00"),learn_number:58},
-        {code:"nguvan-8",subject:"Ngữ văn Lớp 08",start_time:new Date("1/23/2025 19:45:00"),end_time:new Date("1/23/2025 22:30:00"),learn_number:57},
         {code:"vatli-11",subject:"Vật lí Lớp 11",start_time:new Date("1/24/2025 21:15:00"),end_time:new Date("1/25/2025 0:00:00"),learn_number:29},
         {code:"hoahoc-10",subject:"Hóa học Lớp 10",start_time:new Date("1/24/2025 19:45:00"),end_time:new Date("1/24/2025 22:30:00"),learn_number:26},
         {code:"nguvan-9",subject:"Ngữ văn Lớp 09",start_time:new Date("1/24/2025 19:45:00"),end_time:new Date("1/24/2025 22:30:00"),learn_number:30},
-        {code:"toan-8",subject:"Toán Lớp 08",start_time:new Date("1/24/2025 19:45:00"),end_time:new Date("1/24/2025 22:30:00"),learn_number:58},
-        {code:"nguvan-8",subject:"Ngữ văn Lớp 08",start_time:new Date("1/24/2025 17:45:00"),end_time:new Date("1/24/2025 20:30:00"),learn_number:58},
-        {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("1/25/2025 19:45:00"),end_time:new Date("1/25/2025 22:30:00"),learn_number:50},
         {code:"demo",subject:"Demo",start_time:new Date("11/30/2024 20:15:00"),end_time:new Date("12/31/2024 23:59:00"),learn_number:1}
     ]
 
