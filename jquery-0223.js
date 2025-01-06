@@ -200,7 +200,7 @@ const lichhoc = [
     {code:"hoahoc-10",subject:"Hóa học Lớp 10",start_time:new Date("1/24/2025 19:45:00"),end_time:new Date("1/24/2025 22:30:00"),learn_number:26,lesson_name:"Ôn tập chủ đề Năng lượng hóa học",teacher:"Vũ Thị Thùy Dương"},
     {code:"nguvan-9",subject:"Ngữ văn Lớp 09",start_time:new Date("1/24/2025 19:45:00"),end_time:new Date("1/24/2025 22:30:00"),learn_number:30,lesson_name:"Ôn luyện tổng hợp - Phần 2",teacher:"Nguyễn Phi Hùng"},
     {code:"nguvan-9",subject:"Ngữ văn Lớp 09",start_time:new Date("1/27/2025 19:45:00"),end_time:new Date("1/27/2025 22:30:00"),learn_number:30,lesson_name:"Ôn luyện tổng hợp - Phần 2",teacher:"Nguyễn Phi Hùng"},
-    { code: "demo1", subject: "Demo", start_time: new Date("01/06/2025 12:15:00"), end_time: new Date("01/06/2025 18:00:00"), learn_number: 1 }
+    { code: "demo1", subject: "Demo", start_time: new Date("01/06/2025 12:15:00"), end_time: new Date("01/06/2025 18:00:00"), learn_number: 1, lesson_name:"Ôn luyện tổng hợp - Phần 2",teacher:"Nguyễn Phi Hùng"}
 ];
 
 const boxList = [
