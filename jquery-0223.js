@@ -427,7 +427,7 @@ function getBoxChat(name, code) {
 async function loading() {
     status = 1;
     var c_user = getCookie("_ladipage_unique_user_id");
-    var code = window.location.href.substring(28);
+    var code = window.location.href.substring(30);
 
     const learn_number = checkClassAvailability(code);
     if (learn_number == 0) {
