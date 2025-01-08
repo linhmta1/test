@@ -1,6 +1,19 @@
 //copy all >> file js github
-let status = 0;
-var data;
+const videoElement = document.getElementById('video');
+    const startButton = document.getElementById('startButton');
+    let status = 0;
+    var data;
+    if(startButton!=null){
+        startButton.addEventListener('click', async () => {
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                videoElement.srcObject = stream;
+            } catch (error) {
+                console.error('Lỗi khi truy cập camera:', error);
+                alert('Không thể truy cập camera. Vui lòng kiểm tra quyền hoặc thử lại.');
+            }
+        });
+    }
 
 function btoaUTF8(str) {
     const encoder = new TextEncoder();
