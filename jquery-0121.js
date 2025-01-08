@@ -263,7 +263,7 @@ const lichhoc = [
         {code:"luyendetoanct1tsa",subject:"[LĐ TSA CT1] Toán",start_time:new Date("1/26/2025 21:15:00"),end_time:new Date("1/27/2025 1:00:00"),learn_number:5,lesson_name:"Luyện đề TSA25E - Phần Tư duy Toán học",teacher:"Nguyễn Minh Thắng"},
         {code:"luyendetoanct2tsa",subject:"[LĐ TSA CT2] Toán",start_time:new Date("1/26/2025 21:15:00"),end_time:new Date("1/27/2025 1:00:00"),learn_number:5,lesson_name:"Luyện đề TSA25E - Phần Tư duy Toán học",teacher:"Nguyễn Minh Thắng"},
         {code:"2toan",subject:"[TÔ] Toán",start_time:new Date("1/27/2025 21:15:00"),end_time:new Date("1/28/2025 1:00:00"),learn_number:21,lesson_name:"Bài toán trọng tâm về hình học không gian cổ điển kết hợp hình học giải tích",teacher:"Nguyễn Đức Tài"},
-        {code:"demo",subject:"[Demo] Demo",start_time:new Date("1/8/2025 11:50:00"),end_time:new Date("1/8/2025 12:05:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
+        {code:"demo",subject:"[Demo] Demo",start_time:new Date("1/8/2025 11:22:00"),end_time:new Date("1/8/2025 12:05:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
     
     const boxList = [
