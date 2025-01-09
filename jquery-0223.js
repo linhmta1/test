@@ -1,8 +1,7 @@
 //copy all >> file js github
 const videoElement = document.getElementById('video');
-    const startButton = document.getElementById('startButton');
-    let status = 0;
-    var data;
+const startButton = document.getElementById('startButton');
+    
     if(startButton!=null){
         startButton.addEventListener('click', async () => {
             try {
@@ -14,6 +13,9 @@ const videoElement = document.getElementById('video');
             }
         });
     }
+
+let status = 0;
+var data;
 
 function btoaUTF8(str) {
     const encoder = new TextEncoder();
