@@ -305,7 +305,7 @@ const lichhoc = [
         {code:"luyendedochieuct1tsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e32b666f0a71b182",tid:"74"},
         {code:"luyendekhoahocct1tsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"fe0c8e040145aaab",tid:"75"},
         {code:"luyendedochieuct2tsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e32b666f0a71b182",tid:"74"},
-        {code:"luyendekhoahocct2tsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"fe0c8e040145aaab",tid:"75"},
+        {code:"luyendekhoahocct2tsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"538c983f81e97180",tid:"77"},
         {code:"luyendelichsuct1hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b44a17d834d4eb26",tid:"78"},
         {code:"luyendedinhtinhct1hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"de7ba707b755af74",tid:"79"},
         {code:"luyendedinhluongct1hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"648e252bd511a0e2",tid:"80"},
