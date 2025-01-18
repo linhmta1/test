@@ -259,6 +259,8 @@ const lichhoc = [
 {code:"2toan",subject:"[TÔ] Toán",start_time:new Date("1/25/2025 20:15:00"),end_time:new Date("1/26/2025 0:00:00"),learn_number:21,lesson_name:"Bài toán trọng tâm về hình học không gian cổ điển kết hợp hình học giải tích",teacher:"Nguyễn Đức Tài"},
 {code:"2nguvan",subject:"[TÔ] Ngữ văn",start_time:new Date("1/25/2025 20:15:00"),end_time:new Date("1/26/2025 0:00:00"),learn_number:20,lesson_name:"Ôn tập các biện pháp tu từ",teacher:"Phạm Hữu Cường"},
 {code:"mentorsayhihsa",subject:"[Mentorsayhi] HSA",start_time:new Date("1/25/2025 21:15:00"),end_time:new Date("1/26/2025 1:00:00"),learn_number:25,lesson_name:"HSA-Dặn dò ôn tập trong Tết",teacher:"Nguyễn Hợp Huy"},
+    {code:"luyendetoanpen",subject:"[LĐ THPTQG] Toán",start_time:new Date("1/18/2025 23:50:00"),end_time:new Date("1/19/2025 1:30:00"),learn_number:100,lesson_name:"Cách tiếp cận các bài toán thực tế - Đại số và giải tích",teacher:"Nguyễn Thanh Tùng"},
+
         {code:"demo",subject:"[Demo] Demo",start_time:new Date("1/8/2025 11:22:00"),end_time:new Date("1/8/2025 12:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
     
