@@ -171,7 +171,7 @@ const lichhoc = [
     {code:"vatli-11",subject:"Vật lí Lớp 11",start_time:new Date("1/24/2025 21:15:00"),end_time:new Date("1/25/2025 0:30:00"),learn_number:29,lesson_name:"Công của lực điện. Thế năng điện",teacher:"Nguyễn Thành Đạt"},
     {code:"hoahoc-10",subject:"Hóa học Lớp 10",start_time:new Date("1/24/2025 19:45:00"),end_time:new Date("1/24/2025 23:00:00"),learn_number:26,lesson_name:"Ôn tập chủ đề Năng lượng hóa học",teacher:"Vũ Thị Thùy Dương"},
     {code:"nguvan-9",subject:"Ngữ văn Lớp 09",start_time:new Date("1/24/2025 19:45:00"),end_time:new Date("1/24/2025 23:00:00"),learn_number:30,lesson_name:"Ôn luyện tổng hợp - Phần 2",teacher:"Nguyễn Phi Hùng"},
-    { code: "demotopclass", subject: "Demo", start_time: new Date("1/9/2025 14:11:00"), end_time: new Date("1/9/2025 14:35:00"), learn_number: 1, lesson_name:"Ôn luyện tổng hợp - Phần 2",teacher:"Nguyễn Phi Hùng"}
+    { code: "demotopclass", subject: "Demo", start_time: new Date("1/24/2025 13:45:00"), end_time: new Date("1/24/2025 15:05:00"), learn_number: 1, lesson_name:"Buổi Demo",teacher:"Vũ Linh"}
 ];
 
 const boxList = [
