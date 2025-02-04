@@ -36,7 +36,6 @@ const lichhoc = [
     {code:"nguvan-8",subject:"Ngữ văn Lớp 08",start_time:new Date("2/3/2025 19:45:00"),end_time:new Date("2/3/2025 23:30:00"),learn_number:58,lesson_name:"Viết đoạn văn ghi lại cảm nghĩ về một bài thơ tự do",teacher:"Vũ Hồng Ngọc"},
     {code:"hoahoc-11",subject:"Hóa học Lớp 11",start_time:new Date("2/4/2025 21:15:00"),end_time:new Date("2/5/2025 1:00:00"),learn_number:30,lesson_name:"Lý thuyết trọng tâm cô đọng về Dẫn xuất halogen ",teacher:"Đinh Thị Oanh"},
     {code:"vatli-10",subject:"Vật lí Lớp 10",start_time:new Date("2/4/2025 19:45:00"),end_time:new Date("2/4/2025 23:30:00"),learn_number:26,lesson_name:"Động lượng của vật, hệ vật. Xung của lực",teacher:"Thiều Thị Dung"},
-    {code:"toannangcao-9",subject:"Toán Nâng cao Lớp 09",start_time:new Date("2/4/2025 17:45:00"),end_time:new Date("2/4/2025 21:30:00"),learn_number:58,lesson_name:"CĐ. Chứng minh điểm di chuyển trên đường cố định - P1",teacher:"Trần Ngọc Hà"},
     {code:"toan-8",subject:"Toán Lớp 08",start_time:new Date("2/4/2025 19:45:00"),end_time:new Date("2/4/2025 23:30:00"),learn_number:59,lesson_name:"Ôn tập chuyên đề Thống kê",teacher:"Chu Thị Lâm Oanh"},
     {code:"toan-7",subject:"Toán Lớp 07",start_time:new Date("2/4/2025 19:45:00"),end_time:new Date("2/4/2025 23:30:00"),learn_number:59,lesson_name:"Luyện tập về Thống kê",teacher:"Lê Ngọc Diên"},
     {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("2/4/2025 17:45:00"),end_time:new Date("2/4/2025 21:30:00"),learn_number:52,lesson_name:"P2_Hệ thống kiến thức theo chủ đề",teacher:"Lê Ngọc Diên"},
