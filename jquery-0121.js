@@ -442,6 +442,14 @@ const lichhoc = [
         {code:"luyendevatlypen",boxid:"952000",boxtag:"3Ot9Nu",tkey:"7bd403066bcd0f9d",tid:"89"},
         {code:"luyendehoahocpen",boxid:"952000",boxtag:"3Ot9Nu",tkey:"cab19f767bed88fb",tid:"90"},
         {code:"luyendesinhhocpen",boxid:"952000",boxtag:"3Ot9Nu",tkey:"456c8691e3aaaca1",tid:"91"},
+        {code:"luyendelichsukg2hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b0a0ad34db1db39a",tid:"94"},
+        {code:"luyendehoahockg2hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"2c6b6cd023e503cf",tid:"95"},
+        {code:"luyendesinhhockg2hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"de0af4b98a71b668",tid:"96"},
+        {code:"luyendedinhluongkg2hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"156e9966a04d4c38",tid:"97"},
+        {code:"luyendedinhtinhkg2hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e574728e3ba6e71d",tid:"98"},
+        {code:"luyendetienganhkg2hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"4e8c9ae17d9dc514",tid:"99"},
+        {code:"luyendevatlykg2hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ac43826098724e65",tid:"100"},
+        {code:"luyendedialikg2hsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"c6f8ff61539c4871",tid:"101"},
         { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
     ];
     
