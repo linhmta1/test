@@ -208,6 +208,7 @@ const lichhoc = [
         {code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("3/22/2025 19:45:00"),end_time:new Date("3/22/2025 23:30:00"),learn_number:68,lesson_name:"Kĩ năng đọc hiểu kiểu văn bản nghị luận xã hội (P3)",teacher:"Hoàng Thị Tuyết"},
         {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("3/22/2025 19:45:00"),end_time:new Date("3/22/2025 23:30:00"),learn_number:66,lesson_name:"Ôn tập giữa học kì II (P2)",teacher:"Trần Thị Thanh Xuân"},
         {code:"luyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("3/23/2025 20:45:00"),end_time:new Date("3/24/2025 0:30:00"),learn_number:12,lesson_name:"Luyện đề HM10_Toán số 10",teacher:"Nguyễn Mạnh Cường"},
+        {code:"chuyendetoan-9",subject:"Chuyên đề Toán Lớp 9",start_time:new Date("3/23/2025 19:45:00"),end_time:new Date("3/23/2025 23:00:00"),learn_number:1,lesson_name:"Chuyên đề Toán 9_Buổi học số 1",teacher:"Lê Ngọc Diên"},
         {code:"luyendetienganh-9",subject:"Tiếng Anh Lớp 9",start_time:new Date("3/23/2025 19:45:00"),end_time:new Date("3/23/2025 23:30:00"),learn_number:3,lesson_name:"HM10_Tiếng anh_Đề số 3",teacher:"Nguyễn Trung Nguyên"},
         {code:"toan-11",subject:"Toán Lớp 11",start_time:new Date("3/23/2025 19:45:00"),end_time:new Date("3/23/2025 23:30:00"),learn_number:35,lesson_name:"P2_Các quy tắc tính xác suất",teacher:"Nguyễn Thị Khuyên"},
         {code:"toannangcao-8",subject:"Toán Nâng cao Lớp 08",start_time:new Date("3/23/2025 17:45:00"),end_time:new Date("3/23/2025 21:30:00"),learn_number:135,lesson_name:"CĐ. Giải toán bằng cách lập phương trình-bài toán công việc,...",teacher:"Trần Ngọc Hà"},
@@ -306,6 +307,7 @@ const lichhoc = [
         {code:"luyendetoan-9",boxid:"952000",boxtag:"3Ot9Nu",tkey:"1ac42789f9981f9b",tid:"92"},
         {code:"luyendenguvan-9",boxid:"952000",boxtag:"3Ot9Nu",tkey:"61ee4d14f5c296dc",tid:"93"},
         {code:"luyendetienganh-9",boxid:"952000",boxtag:"3Ot9Nu",tkey:"9ca8d0dff1cddd2d",tid:"102"},
+        {code:"chuyendetoan-9",boxid:"952000",boxtag:"3Ot9Nu",tkey:"5a6016e64036a6eb",tid:"65"},
         { code: "demotopclass", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
     ];
     
