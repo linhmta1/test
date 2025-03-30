@@ -141,6 +141,7 @@ const lichhoc = [
         {code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("4/5/2025 19:45:00"),end_time:new Date("4/5/2025 23:30:00"),learn_number:72,lesson_name:"Kĩ năng đọc hiểu văn bản thông tin (P2)",teacher:"Hoàng Thị Tuyết"},
         {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("4/5/2025 19:45:00"),end_time:new Date("4/5/2025 23:30:00"),learn_number:70,lesson_name:"Thực hành Tiếng Việt: Trạng ngữ",teacher:"Trần Thị Thanh Xuân"},
         {code:"luyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("4/6/2025 20:45:00"),end_time:new Date("4/7/2025 0:30:00"),learn_number:16,lesson_name:"Luyện đề HM10_Toán số 13",teacher:"Nguyễn Mạnh Cường"},
+        {code:"chuyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("4/6/2025 19:45:00"),end_time:new Date("4/6/2025 23:30:00"),learn_number:3,lesson_name:"Buổi học số 3",teacher:"Lê Ngọc Diên"},
         {code:"luyendetienganh-9",subject:"Tiếng Anh Lớp 9",start_time:new Date("4/6/2025 19:45:00"),end_time:new Date("4/6/2025 23:30:00"),learn_number:7,lesson_name:"HM10_Tiếng anh_Đề số 7",teacher:"Nguyễn Trung Nguyên"},
         {code:"toan-11",subject:"Toán Lớp 11",start_time:new Date("4/6/2025 19:45:00"),end_time:new Date("4/6/2025 23:30:00"),learn_number:37,lesson_name:"P2_Giải quyết nhanh bài toán khoảng cách qua các mô hình",teacher:"Nguyễn Thị Khuyên"},
         {code:"toannangcao-8",subject:"Toán Nâng cao Lớp 08",start_time:new Date("4/6/2025 17:45:00"),end_time:new Date("4/6/2025 21:30:00"),learn_number:137,lesson_name:"Xác suất",teacher:"Trần Ngọc Hà"},
