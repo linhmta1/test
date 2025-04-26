@@ -147,6 +147,7 @@ const lichhoc = [
         {code:"toannangcao-7",subject:"Toán Nâng cao Lớp 07",start_time:new Date("4/26/2025 19:45:00"),end_time:new Date("4/26/2025 23:30:00"),learn_number:140,lesson_name:"CĐ. Xác suất",teacher:"Trần Ngọc Hà"},
         {code:"toan-6",subject:"Toán Lớp 06",start_time:new Date("4/26/2025 19:45:00"),end_time:new Date("4/26/2025 23:30:00"),learn_number:74,lesson_name:"Phương pháp chiếm trọn điểm 10 trong đề thi (P2)",teacher:"Nguyễn Thị Nhung"},
         {code:"nguvan-7",subject:"Ngữ văn Lớp 07",start_time:new Date("4/26/2025 19:45:00"),end_time:new Date("4/26/2025 23:30:00"),learn_number:78,lesson_name:"Ôn tập học kì II (P1)",teacher:"Hoàng Thị Tuyết"},
+        {code:"toannangcao-9",subject:"Toán Nâng cao Lớp 09",start_time:new Date("4/19/2025 17:45:00"),end_time:new Date("4/19/2025 20:30:00"),learn_number:80,lesson_name:"CĐ. Các bài toán tổng hợp - P2",teacher:"Trần Ngọc Hà"},
         {code:"nguvan-6",subject:"Ngữ văn Lớp 06",start_time:new Date("4/26/2025 19:45:00"),end_time:new Date("4/26/2025 23:30:00"),learn_number:76,lesson_name:"Kĩ năng tóm tắt văn bản thông tin và viết biên bản",teacher:"Trần Thị Thanh Xuân"},
         {code:"luyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("4/27/2025 20:45:00"),end_time:new Date("4/28/2025 0:30:00"),learn_number:22,lesson_name:"Luyện đề HM10_Toán số 18",teacher:"Nguyễn Mạnh Cường"},
         {code:"chuyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("4/27/2025 19:45:00"),end_time:new Date("4/27/2025 23:45:00"),learn_number:5,lesson_name:"Buổi học số 05",teacher:"Lê Ngọc Diên"},
