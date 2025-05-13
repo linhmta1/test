@@ -36,6 +36,7 @@ const lichhoc = [
         {code:"luyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("5/12/2025 19:45:00"),end_time:new Date("5/12/2025 23:30:00"),learn_number:26,lesson_name:"Luyện đề HM10_Toán số 21",teacher:"Nguyễn Mạnh Cường"},
         {code:"vatli-10",subject:"Vật lí Lớp 10",start_time:new Date("5/12/2025 21:15:00"),end_time:new Date("5/13/2025 1:00:00"),learn_number:38,lesson_name:"Ôn tập và kiểm tra học kì II (P2)",teacher:"Nguyễn Thành Đạt"},
         {code:"luyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("5/13/2025 19:45:00"),end_time:new Date("5/13/2025 23:30:00"),learn_number:27,lesson_name:"Luyện đề HM10_Toán số 22",teacher:"Nguyễn Mạnh Cường"},
+        {code:"toannangcao-9",subject:"Toán Nâng cao Lớp 9",start_time:new Date("5/13/2025 17:45:00"),end_time:new Date("5/13/2025 20:30:00"),learn_number:84,lesson_name:"CĐ. Hình tổng hợp - P3",teacher:"Trần Ngọc Hà"},
         {code:"luyendetienganh-9",subject:"Tiếng Anh Lớp 9",start_time:new Date("5/13/2025 19:45:00"),end_time:new Date("5/13/2025 23:30:00"),learn_number:16,lesson_name:"HM10_Tiếng anh_Đề số 16",teacher:"Nguyễn Trung Nguyên"},
         {code:"luyendenguvan-9",subject:"Ngữ văn Lớp 9",start_time:new Date("5/13/2025 19:45:00"),end_time:new Date("5/13/2025 23:30:00"),learn_number:25,lesson_name:"HM10_Ngữ văn_Đề số 21",teacher:"Nguyễn Phi Hùng"},
         {code:"toan-7",subject:"Toán Lớp 07",start_time:new Date("5/13/2025 19:45:00"),end_time:new Date("5/13/2025 23:30:00"),learn_number:84,lesson_name:"Ôn tập tổng hợp kiến thức trọng tâm lớp 7",teacher:"Lê Ngọc Diên"},
