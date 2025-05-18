@@ -31,6 +31,7 @@ function atobUTF8(base64Str) {
 
 const lichhoc = [
         {code:"chuyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("5/18/2025 19:45:00"),end_time:new Date("5/18/2025 23:45:00"),learn_number:8,lesson_name:"Buổi học số 08",teacher:"Lê Ngọc Diên"},
+        {code:"chuyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("5/25/2025 19:45:00"),end_time:new Date("5/25/2025 23:55:00"),learn_number:9,lesson_name:"Buổi học số 09",teacher:"Lê Ngọc Diên"},
         {code:"luyendetienganh-9",subject:"Tiếng Anh Lớp 9",start_time:new Date("5/12/2025 19:45:00"),end_time:new Date("5/12/2025 23:30:00"),learn_number:16,lesson_name:"HM10_Tiếng anh_Đề số 16",teacher:"Nguyễn Trung Nguyên"},
         {code:"luyendenguvan-9",subject:"Ngữ văn Lớp 9",start_time:new Date("5/12/2025 19:45:00"),end_time:new Date("5/12/2025 23:30:00"),learn_number:25,lesson_name:"HM10_Ngữ văn_Đề số 21",teacher:"Nguyễn Phi Hùng"},
         {code:"luyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("5/12/2025 19:45:00"),end_time:new Date("5/12/2025 23:30:00"),learn_number:26,lesson_name:"Luyện đề HM10_Toán số 21",teacher:"Nguyễn Mạnh Cường"},
