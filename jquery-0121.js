@@ -38,7 +38,7 @@ const lichhoc = [
         {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/23/2025 21:15:00"),end_time:new Date("5/24/2025 2:30:00"),learn_number:83,lesson_name:"Hướng dẫn Đề thi thử TN THPT 2025 - môn Sinh học",teacher:"Vũ Văn Trường"},
         {code:"luyendehoahocpen",subject:"[LĐ THPTQG] Hóa học",start_time:new Date("5/23/2025 20:45:00"),end_time:new Date("5/24/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen-I số 10 (đề nâng cao)",teacher:"Vũ Khắc Ngọc"},
         {code:"luyendevatlypen",subject:"[LĐ THPTQG] Vật lý",start_time:new Date("5/24/2025 20:45:00"),end_time:new Date("5/25/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen I số 10",teacher:"Nguyễn Hữu Tình"},
-        {code:"demo",subject:"[Demo] Demo",start_time:new Date("1/8/2025 11:22:00"),end_time:new Date("1/8/2025 12:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
+        {code:"demo",subject:"[Demo] Demo",start_time:new Date("5/22/2025 14:22:00"),end_time:new Date("5/22/2025 16:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
     
     const boxList = [
