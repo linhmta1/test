@@ -15,29 +15,12 @@ function atobUTF8(base64Str) {
 }
 
 const lichhoc = [
-        {code:"luyendevatlypen",subject:"[LĐ THPTQG] Vật lý",start_time:new Date("5/15/2025 20:45:00"),end_time:new Date("5/16/2025 2:00:00"),learn_number:14,lesson_name:"Luyện đề Pen I số 09",teacher:"Nguyễn Hữu Tình"},
-        {code:"luyendetoanpen",subject:"[LĐ THPTQG] Toán",start_time:new Date("5/15/2025 20:45:00"),end_time:new Date("5/16/2025 2:00:00"),learn_number:15,lesson_name:"Toán_Luyện đề PEN-I số 10",teacher:"Nguyễn Thanh Tùng"},
-        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/15/2025 21:15:00"),end_time:new Date("5/16/2025 2:30:00"),learn_number:80,lesson_name:"Pen-I_Hóa học_Đề luyện PEN-I số 05",teacher:"Vũ Văn Trường"},
-        {code:"luyendesinhhocpen",subject:"[LĐ THPTQG] Sinh học",start_time:new Date("5/16/2025 20:45:00"),end_time:new Date("5/17/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen-I số 10 (đề nâng cao)",teacher:"Nguyễn Duy Khánh"},
-        {code:"luyendehoahocpen",subject:"[LĐ THPTQG] Hóa học",start_time:new Date("5/16/2025 20:45:00"),end_time:new Date("5/17/2025 2:00:00"),learn_number:14,lesson_name:"Luyện đề Pen-I số 09 (đề nâng cao)",teacher:"Vũ Khắc Ngọc"},
-        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/16/2025 21:15:00"),end_time:new Date("5/17/2025 2:30:00"),learn_number:79,lesson_name:"Hướng dẫn Đề thi thử TN THPT 2025 - môn Vật lí",teacher:"Vũ Văn Trường"},
-        {code:"luyendetoanpen",subject:"[LĐ THPTQG] Toán",start_time:new Date("5/17/2025 20:15:00"),end_time:new Date("5/18/2025 1:30:00"),learn_number:16,lesson_name:"Tổng kết & Giải đáp cuối khóa",teacher:"Nguyễn Thanh Tùng"},
-        {code:"luyendenguvanpen",subject:"[LĐ THPTQG] Ngữ văn",start_time:new Date("5/17/2025 20:45:00"),end_time:new Date("5/18/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề PEN-I số 15",teacher:"Trịnh Thu Tuyết"},
-        {code:"luyendevatlypen",subject:"[LĐ THPTQG] Vật lý",start_time:new Date("5/17/2025 20:45:00"),end_time:new Date("5/18/2025 2:00:00"),learn_number:14,lesson_name:"Luyện đề Pen I số 09",teacher:"Nguyễn Hữu Tình"},
-        {code:"luyendehoahocpen",subject:"[LĐ THPTQG] Hóa học",start_time:new Date("5/18/2025 21:15:00"),end_time:new Date("5/19/2025 2:30:00"),learn_number:15,lesson_name:"Luyện đề Pen-I số 10 (đề nâng cao)",teacher:"Vũ Khắc Ngọc"},
-        {code:"luyendevatlypen",subject:"[LĐ THPTQG] Vật lý",start_time:new Date("5/19/2025 20:45:00"),end_time:new Date("5/20/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen I số 10",teacher:"Nguyễn Hữu Tình"},
-        {code:"luyendenguvanpen",subject:"[LĐ THPTQG] Ngữ văn",start_time:new Date("5/19/2025 20:45:00"),end_time:new Date("5/20/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề PEN-I số 15",teacher:"Trịnh Thu Tuyết"},
-        {code:"luyendesinhhocpen",subject:"[LĐ THPTQG] Sinh học",start_time:new Date("5/20/2025 20:45:00"),end_time:new Date("5/21/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen-I số 10 (đề nâng cao)",teacher:"Nguyễn Duy Khánh"},
-        {code:"luyendehoahocpen",subject:"[LĐ THPTQG] Hóa học",start_time:new Date("5/20/2025 20:45:00"),end_time:new Date("5/21/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen-I số 10 (đề nâng cao)",teacher:"Vũ Khắc Ngọc"},
-        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/20/2025 21:15:00"),end_time:new Date("5/21/2025 2:30:00"),learn_number:81,lesson_name:"Pen-I_...",teacher:"Nguyễn Hợp Huy"},
-        {code:"luyendetoanpen",subject:"[LĐ THPTQG] Toán",start_time:new Date("5/21/2025 20:45:00"),end_time:new Date("5/22/2025 2:00:00"),learn_number:16,lesson_name:"Tổng kết & Giải đáp cuối khóa",teacher:"Nguyễn Thanh Tùng"},
-        {code:"luyendesinhhocpen",subject:"[LĐ THPTQG] Sinh học",start_time:new Date("5/21/2025 20:45:00"),end_time:new Date("5/22/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen-I số 10 (đề nâng cao)",teacher:"Nguyễn Duy Khánh"},
-        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/22/2025 21:15:00"),end_time:new Date("5/23/2025 2:30:00"),learn_number:82,lesson_name:"Hướng dẫn Đề thi thử TN THPT 2025 - môn Tiếng Anh",teacher:"Vũ Văn Trường"},
-        {code:"luyendevatlypen",subject:"[LĐ THPTQG] Vật lý",start_time:new Date("5/22/2025 20:45:00"),end_time:new Date("5/23/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen I số 10",teacher:"Nguyễn Hữu Tình"},
-        {code:"luyendetoanpen",subject:"[LĐ THPTQG] Toán",start_time:new Date("5/22/2025 20:45:00"),end_time:new Date("5/23/2025 2:00:00"),learn_number:16,lesson_name:"Tổng kết & Giải đáp cuối khóa",teacher:"Nguyễn Thanh Tùng"},
-        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/23/2025 21:15:00"),end_time:new Date("5/24/2025 2:30:00"),learn_number:83,lesson_name:"Hướng dẫn Đề thi thử TN THPT 2025 - môn Sinh học",teacher:"Vũ Văn Trường"},
         {code:"luyendehoahocpen",subject:"[LĐ THPTQG] Hóa học",start_time:new Date("5/23/2025 20:45:00"),end_time:new Date("5/24/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen-I số 10 (đề nâng cao)",teacher:"Vũ Khắc Ngọc"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/23/2025 21:15:00"),end_time:new Date("5/24/2025 2:30:00"),learn_number:83,lesson_name:"Hướng dẫn Đề thi thử TN THPT 2025 - môn Sinh học",teacher:"Vũ Văn Trường"},
         {code:"luyendevatlypen",subject:"[LĐ THPTQG] Vật lý",start_time:new Date("5/24/2025 20:45:00"),end_time:new Date("5/25/2025 2:00:00"),learn_number:15,lesson_name:"Luyện đề Pen I số 10",teacher:"Nguyễn Hữu Tình"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/27/2025 21:15:00"),end_time:new Date("5/28/2025 2:30:00"),learn_number:84,lesson_name:"Pen-I_Toán_Toán_Đề luyện PEN-I số 07",teacher:"Nguyễn Hợp Huy"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/29/2025 21:15:00"),end_time:new Date("5/30/2025 2:30:00"),learn_number:85,lesson_name:"Hướng dẫn Đề thi thử TN THPT 2025 - môn Tiếng Anh",teacher:"Nguyễn Trần Gia Duy"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/30/2025 21:15:00"),end_time:new Date("5/31/2025 2:30:00"),learn_number:86,lesson_name:"Pen-I_Vật lí_Đề luyện PEN-I số 07",teacher:"Vũ Văn Trường"},
         {code:"demo",subject:"[Demo] Demo",start_time:new Date("5/22/2025 14:22:00"),end_time:new Date("5/22/2025 16:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
     
