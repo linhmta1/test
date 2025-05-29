@@ -89,7 +89,7 @@ const lichhoc = [
         {code:"luyendenguvan-9",subject:"Ngữ văn Lớp 9",start_time:new Date("5/28/2025 19:45:00"),end_time:new Date("5/28/2025 23:30:00"),learn_number:30,lesson_name:"HM10_Ngữ văn_Tổng kết 5",teacher:"Nguyễn Phi Hùng"},
         {code:"luyendenguvan-9",subject:"Ngữ văn Lớp 9",start_time:new Date("5/29/2025 19:45:00"),end_time:new Date("5/29/2025 23:30:00"),learn_number:30,lesson_name:"HM10_Ngữ văn_Tổng kết 5",teacher:"Nguyễn Phi Hùng"},
         {code:"luyendetoan-9",subject:"Toán Lớp 9",start_time:new Date("5/31/2025 19:45:00"),end_time:new Date("5/31/2025 23:30:00"),learn_number:30,lesson_name:"Luyện đề HM10_Toán số 25",teacher:"Nguyễn Mạnh Cường"},
-        { code: "demotopclass", subject: "Demo", start_time: new Date("5/29/2025 16:45:00"), end_time: new Date("5/29/2025 17:30:00"), learn_number: 1, lesson_name:"Buổi Demo",teacher:"Vũ Linh"}
+        { code: "demotopclass", subject: "Demo", start_time: new Date("5/29/2025 16:45:00"), end_time: new Date("5/29/2025 18:55:00"), learn_number: 1, lesson_name:"Buổi Demo",teacher:"Vũ Linh"}
     ];
     
     const boxList = [
