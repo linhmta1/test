@@ -24,6 +24,14 @@ const lichhoc = [
         {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/27/2025 21:15:00"),end_time:new Date("5/28/2025 2:30:00"),learn_number:84,lesson_name:"Pen-I_Toán_Toán_Đề luyện PEN-I số 07",teacher:"Nguyễn Hợp Huy"},
         {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/29/2025 21:15:00"),end_time:new Date("5/30/2025 2:30:00"),learn_number:85,lesson_name:"Hướng dẫn Đề thi thử TN THPT 2025 - môn Tiếng Anh",teacher:"Nguyễn Trần Gia Duy"},
         {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("5/30/2025 21:15:00"),end_time:new Date("5/31/2025 2:30:00"),learn_number:86,lesson_name:"Pen-I_Vật lí_Đề luyện PEN-I số 07",teacher:"Vũ Văn Trường"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("6/3/2025 21:15:00"),end_time:new Date("6/4/2025 2:30:00"),learn_number:87,lesson_name:"Pen-I_Toán_Toán_Đề luyện PEN-I số 08",teacher:"Nguyễn Hợp Huy"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("6/5/2025 21:15:00"),end_time:new Date("6/6/2025 2:30:00"),learn_number:88,lesson_name:"Pen-I_Hóa học_Đề luyện PEN-I số 05",teacher:"Nguyễn Trần Gia Duy"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("6/6/2025 21:15:00"),end_time:new Date("6/7/2025 2:30:00"),learn_number:89,lesson_name:"Pen-I_Sinh học_Đề luyện PEN-I số 05",teacher:"Vũ Văn Trường"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("6/10/2025 21:15:00"),end_time:new Date("6/11/2025 2:30:00"),learn_number:90,lesson_name:"Pen-I_Toán_Toán_Đề luyện PEN-I số 09",teacher:"Nguyễn Hợp Huy"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("6/12/2025 21:15:00"),end_time:new Date("6/13/2025 2:30:00"),learn_number:91,lesson_name:"Pen-I_Hóa học_Đề luyện PEN-I số 06",teacher:"Nguyễn Trần Gia Duy"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("6/13/2025 21:15:00"),end_time:new Date("6/14/2025 2:30:00"),learn_number:92,lesson_name:"Pen-I_Vật lí_Đề luyện PEN-I số 08",teacher:"Vũ Văn Trường"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("6/19/2025 21:15:00"),end_time:new Date("6/20/2025 2:30:00"),learn_number:93,lesson_name:"Pen-I_Tiếng Anh_Đề luyện PEN-I số 10",teacher:"Nguyễn Trần Gia Duy"},
+        {code:"mentorsayhipen",subject:"[Mentorsayhi] PEN",start_time:new Date("6/20/2025 21:15:00"),end_time:new Date("6/21/2025 2:30:00"),learn_number:94,lesson_name:"Pen-I_Hóa học_Đề luyện PEN-I số 10",teacher:"Vũ Văn Trường"},
         {code:"demo",subject:"[Demo] Demo",start_time:new Date("5/22/2025 14:22:00"),end_time:new Date("5/22/2025 16:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
     
