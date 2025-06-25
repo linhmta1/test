@@ -72,7 +72,7 @@ const lichhoc = [
 {code:"hochetoanlop7",subject:"Toán lớp 7",start_time:new Date("6/25/2025 17:45:00"),end_time:new Date("6/25/2025 20:15:00"),learn_number:7,lesson_name:"Bất đẳng thức phân số p2",teacher:"Trần Ngọc Hà"},
 {code:"hochetoanlop8",subject:"Toán lớp 8",start_time:new Date("6/25/2025 17:45:00"),end_time:new Date("6/25/2025 20:15:00"),learn_number:8,lesson_name:"Ôn tập tổng hợp",teacher:"Lê Ngọc Diên"},
 {code:"hochetoanlop9",subject:"Toán lớp 9",start_time:new Date("6/25/2025 19:45:00"),end_time:new Date("6/25/2025 22:15:00"),learn_number:8,lesson_name:"Ôn tập tổng hợp",teacher:"Lê Ngọc Diên"},
-{code:"hochelaygoctoanlop8",subject:"Toán lớp 8",start_time:new Date("6/25/2025 15:45:00"),end_time:new Date("6/25/2025 18:15:00"),learn_number:7,lesson_name:"Tính chất ba đường cao trong tam giác",teacher:"Lê Ngọc Diên"},
+{code:"hochelaygoctoanlop8",subject:"Toán lớp 8",start_time:new Date("6/25/2025 15:45:00"),end_time:new Date("6/25/2025 16:15:00"),learn_number:7,lesson_name:"Tính chất ba đường cao trong tam giác",teacher:"Lê Ngọc Diên"},
 {code:"hochelaygoctoanlop8",subject:"Toán lớp 8",start_time:new Date("6/26/2025 19:45:00"),end_time:new Date("6/26/2025 22:15:00"),learn_number:8,lesson_name:"Ôn tập tổng hợp",teacher:"Nguyễn Quỳnh"},
 {code:"hochelaygoctoanlop9",subject:"Toán lớp 9",start_time:new Date("6/27/2025 19:45:00"),end_time:new Date("6/27/2025 22:15:00"),learn_number:7,lesson_name:"Ôn tập tổng hợp (P1)",teacher:"Trần Ngọc Hà"},
 {code:"hochetoanlop6",subject:"Toán lớp 6",start_time:new Date("6/29/2025 19:45:00"),end_time:new Date("6/29/2025 22:15:00"),learn_number:8,lesson_name:"Bài toán có lời văn về phân số (P2)",teacher:"Lê Ngọc Diên"},
