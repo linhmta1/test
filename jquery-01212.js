@@ -85,7 +85,7 @@ const lichhoc = [
         } else {
             //alert("Không tìm thấy lịch học.");
             document.cookie = "_ladipage_unique_user_id=";
-            window.location.href = "https://topuni.hocmai.vn/lichhoc";
+            window.location.href = "https://topuni.hocmai.vn/lichhocmegalive";
         }
     }
     
@@ -132,7 +132,7 @@ const lichhoc = [
                     clearInterval(checkSessionInterval);
                     //gắn đoạn code logout bắt đăng nhập lại
                     document.cookie = "_ladipage_unique_user_id=";
-                    window.location.href = "https://topuni.hocmai.vn/lichhoc"+"&return=multi";
+                    window.location.href = "https://topuni.hocmai.vn/lichhocmegalive"+"&return=multi";
     
                     //alert('You have been logged out due to a login from another IP.');
                 }
@@ -259,14 +259,14 @@ const lichhoc = [
     
         const learn_number = checkClassAvailability(code);
         if (learn_number == 0) {
-            window.location.href = "https://topuni.hocmai.vn/lichhoc";
+            window.location.href = "https://topuni.hocmai.vn/lichhocmegalive";
         }
     
         if (c_user != "") {
             //check lượt học
             await check(c_user, code, learn_number);
         } else {
-            window.location.href = "https://topuni.hocmai.vn/lichhoc";
+            window.location.href = "https://topuni.hocmai.vn/lichhocmegalive";
         }
     
         //const secret = "648214918886d99c";
@@ -428,7 +428,7 @@ const lichhoc = [
                 } else {
                     //clear cookie and redirect
                     document.cookie = "_ladipage_unique_user_id=";
-                    window.location.href = "https://topuni.hocmai.vn/lichhoc";
+                    window.location.href = "https://topuni.hocmai.vn/lichhocmegalive";
                 }
             } catch (error) {
                 console.error("Fetch error: ", error);
