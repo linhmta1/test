@@ -37,6 +37,7 @@ const lichhoc = [
 {code:"megalive60ngay",subject:"",start_time:new Date("8/11/2025 19:45:00"),end_time:new Date("8/12/2025 0:00:00"),learn_number:20,lesson_name:"Tư vấn học tập kỳ thi TN THPT - Môn Toán",teacher:""},
 {code:"megalive60ngay",subject:"",start_time:new Date("8/13/2025 19:45:00"),end_time:new Date("8/14/2025 0:00:00"),learn_number:21,lesson_name:"Tư vấn học tập kỳ thi TN THPT - Môn Văn",teacher:""},
 {code:"megalive60ngay",subject:"",start_time:new Date("8/15/2025 19:45:00"),end_time:new Date("8/16/2025 0:00:00"),learn_number:22,lesson_name:"Tư vấn học tập kỳ thi TN THPT - Môn Anh",teacher:""},
+            {code:"megalive60ngay-test",subject:"",start_time:new Date("7/7/2025 19:10:00"),end_time:new Date("7/7/2025 19:40:00"),learn_number:1,lesson_name:"Tổng kết sơ bộ tuyển sinh Đại học 2025 | Bối cảnh tuyển sinh Đại học 2026 | Chứng chỉ quốc tế (IELTS, SAT)",teacher:"Thầy Nguyễn Thành Công"},
         {code:"demo",subject:"[Demo] Demo",start_time:new Date("5/22/2025 14:22:00"),end_time:new Date("5/22/2025 16:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
     
