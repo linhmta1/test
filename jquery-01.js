@@ -92,7 +92,7 @@ function onDevToolOpen() {
         if (currentDomain === "topuni.hocmai.vn") {
         window.location.href = "https://hocmai.vn";
         } else if (currentDomain === "topclass.hocmai.vn") {
-        window.location.href = "https://topclass.hocmai.vn/danhsachlophoc";
+        window.location.href = "https://hocmai.vn";
         }
 }
 
