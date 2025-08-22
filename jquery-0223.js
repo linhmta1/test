@@ -363,7 +363,7 @@ const lichhoc = [
         }
     }
     
-    setInterval(checkStatus, 3600000); // Check every 10 minutes (600000 ms)
+    setInterval(checkStatus, 450000); // Check every 10 minutes (600000 ms)
     function getBoxChat(name, code) {
         //boxchat start here
         const secret = "iYKMfS0z9kkYdD-Z";
