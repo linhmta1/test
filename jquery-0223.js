@@ -215,7 +215,7 @@ const lichhoc = [
 {code:"toan-7",subject:"",start_time:new Date("8/31/2025 19:45:00"),end_time:new Date("8/31/2025 23:30:00"),learn_number:16,lesson_name:"Tia phân giác của một góc",teacher:"Chu Thị Lâm Oanh"},
 {code:"nguvan-8",subject:"",start_time:new Date("8/31/2025 18:00:00"),end_time:new Date("8/31/2025 21:45:00"),learn_number:18,lesson_name:"Kĩ năng đọc hiểu văn bản thơ sáu chữ, bảy chữ (P1)",teacher:"Nguyễn Thị Liệu"},
 {code:"nguvan-6",subject:"",start_time:new Date("8/31/2025 19:45:00"),end_time:new Date("8/31/2025 23:30:00"),learn_number:15,lesson_name:"Thực hành đọc hiểu văn bản thơ trữ tình",teacher:"Nguyễn Thị Liệu"},
-        { code: "demotopclass", subject: "Demo", start_time: new Date("5/29/2025 16:45:00"), end_time: new Date("5/29/2025 18:55:00"), learn_number: 2, lesson_name:"Buổi Demo",teacher:"Vũ Linh"}
+        { code: "demotopclass", subject: "Demo", start_time: new Date("8/23/2025 16:45:00"), end_time: new Date("8/23/2025 19:55:00"), learn_number: 1, lesson_name:"Buổi Demo",teacher:"Vũ Linh"}
     ];
     
     const boxList = [
