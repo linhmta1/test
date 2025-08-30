@@ -336,7 +336,7 @@ const lichhoc = [
     function check_spam() {
         // URL của API Google Apps Script
         const c_id = atobUTF8(getCookie("_ladipage_unique_user_id"));
-        var code = window.location.href.substring(28);
+        var code = window.location.href.substring(29);
         const apiUrl = `https://script.google.com/macros/s/AKfycbz5Eo9LL7Ha7pP6v9qwn2mnz-se61o-golud4gH3ArhZbW-WJpQeH6FQhcEiPCmOCzANA/exec?action=checkSpam&username=${c_id}&code=${code}`;
     
         // Sử dụng fetch để gọi API
@@ -446,7 +446,7 @@ const lichhoc = [
     async function loading() {
         status = 1;
         var c_user = getCookie("_ladipage_unique_user_id");
-        var code = window.location.href.substring(30);
+        var code = window.location.href.substring(29);
     
         const learn_number = checkClassAvailability(code);
         if (learn_number == 0) {
