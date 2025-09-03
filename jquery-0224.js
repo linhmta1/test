@@ -31,7 +31,7 @@ function atobUTF8(base64Str) {
 
 const lichhoc = [
        {code:"toan-11",subject:"",start_time:new Date("7/25/2025 19:15:00"),end_time:new Date("7/25/2025 23:00:00"),learn_number:4,lesson_name:"Các dạng bài cốt lõi về hàm số lượng giác",teacher:"Nguyễn Đức Tài"},
-    {code:"toan-61",subject:"Demo",start_time:new Date("9/2/2025 00:00:00"),end_time:new Date("9/2/2025 23:59:00"),learn_number:5,lesson_name:"Động lực học 1122211",teacher:"Thiều Thị Dung"},
+    {code:"toan-61",subject:"Demo",start_time:new Date("9/3/2025 08:00:00"),end_time:new Date("9/3/2025 23:59:00"),learn_number:6,lesson_name:"Động lực học 1122211",teacher:"Thiều Thị Dung"},
 {code:"toan-8",subject:"",start_time:new Date("7/25/2025 18:00:00"),end_time:new Date("7/25/2025 21:45:00"),learn_number:7,lesson_name:"P2_Ôn tập biểu thức đại số và đa thức một biến",teacher:"Trần Hà Giang"},
 {code:"toan-6",subject:"",start_time:new Date("7/25/2025 19:45:00"),end_time:new Date("7/25/2025 23:30:00"),learn_number:5,lesson_name:"Ôn tập hình học phẳng",teacher:"Trần Hà Giang"},
 {code:"nguvan-7",subject:"",start_time:new Date("7/25/2025 19:45:00"),end_time:new Date("7/25/2025 23:30:00"),learn_number:6,lesson_name:"Kĩ năng đọc hiểu văn bản tiểu thuyết và truyện ngắn - Phần 1",teacher:"Vũ Hồng Ngọc"},
