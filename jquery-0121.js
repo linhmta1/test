@@ -32,6 +32,8 @@ const lichhoc = [
     {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("8/16/2025 19:45:00"),end_time:new Date("8/16/2025 23:59:00"),learn_number:13,lesson_name:"Chủ đề NGUYÊN HÀM. TÍCH PHÂN",teacher:"Mentor: Nguyễn Đức Minh"},
     {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("8/23/2025 19:45:00"),end_time:new Date("8/24/2025 02:00:00"),learn_number:14,lesson_name:"Chủ đề Vật lí lớp 10",teacher:"Mentor: Lê Thế Anh"},
     {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("8/30/2025 19:45:00"),end_time:new Date("8/31/2025 02:00:00"),learn_number:15,lesson_name:"Chủ đề Hóa học lớp 10",teacher:"Mentor: Hồ Thị Khánh Linh"},
+        {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("9/6/2025 19:45:00"),end_time:new Date("9/7/2025 02:00:00"),learn_number:15,lesson_name:"Chủ đề Hóa học lớp 10",teacher:"Mentor: Hồ Thị Khánh Linh"},
+
     {code:"tongonvatli2026",subject:"[Tổng ôn 2026] Tổng ôn Vật lí",start_time:new Date("9/4/2025 21:15:00"),end_time:new Date("9/5/2025 01:00:00"),learn_number:1,lesson_name:"Ôn tập chủ đề Động học và Động lực học",teacher:"Thầy Nguyễn Hữu Tình"},
         {code:"tongonvatli2026",subject:"[Tổng ôn 2026] Tổng ôn Vật lí",start_time:new Date("9/7/2025 19:15:00"),end_time:new Date("9/7/2025 23:00:00"),learn_number:1,lesson_name:"Ôn tập chủ đề Động học và Động lực học",teacher:"Thầy Nguyễn Hữu Tình"},
         {code:"tongonvatli2026",subject:"[Tổng ôn 2026] Tổng ôn Vật lí",start_time:new Date("9/10/2025 19:15:00"),end_time:new Date("9/10/2025 23:00:00"),learn_number:1,lesson_name:"Ôn tập chủ đề Động học và Động lực học",teacher:"Thầy Nguyễn Hữu Tình"},
