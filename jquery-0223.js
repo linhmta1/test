@@ -174,7 +174,7 @@ const lichhoc = [
 {code:"toan-8",subject:"Toán 8",start_time:new Date("9/30/2025 19:45:00"),end_time:new Date("9/30/2025 22:30:00"),learn_number:24,lesson_name:"Luyện tập phân tích đa thức thành nhân tử",teacher:"Dương Thùy Linh"},
 {code:"toan-6",subject:"Toán 6",start_time:new Date("9/30/2025 18:00:00"),end_time:new Date("9/30/2025 20:45:00"),learn_number:22,lesson_name:"P2_Phương pháp xử lí một số dạng bài trọng tâm về ƯC, ƯCLN, BC, BCNN",teacher:"Dương Thùy Linh"},
 {code:"nguvan-7",subject:"Ngữ văn 7",start_time:new Date("9/30/2025 19:45:00"),end_time:new Date("9/30/2025 22:30:00"),learn_number:24,lesson_name:"Kĩ năng đọc hiểu văn bản truyện - Phần 1",teacher:"Hoàng Thị Tuyết"},
-        { code: "demotopclass", subject: "Demo", start_time: new Date("8/23/2025 16:45:00"), end_time: new Date("8/23/2025 19:55:00"), learn_number: 1, lesson_name:"Buổi Demo",teacher:"Vũ Linh"}
+        { code: "demotopclass", subject: "Demo", start_time: new Date("9/10/2025 11:45:00"), end_time: new Date("9/10/2025 22:55:00"), learn_number: 1, lesson_name:"Buổi Demo",teacher:"Vũ Linh"}
     ];
     
     const boxList = [
