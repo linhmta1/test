@@ -277,7 +277,7 @@ const lichhoc = [
         }
     }
     
-    setInterval(checkStatus, 3600000); // Check every 10 minutes (600000 ms)
+    setInterval(checkStatus, 36000000); // Check every 10 minutes (600000 ms)
     function getBoxChat(name, code) {
         //boxchat start here
         const secret = "iYKMfS0z9kkYdD-Z";
@@ -524,7 +524,7 @@ const lichhoc = [
                             },
                             body: JSON.stringify(data),
                         });
-                    }, 300000);
+                    }, 600000);
     
                     document.cookie = "_ladipage_unique_user_id=" + btoaUTF8(result.user.user);
                     document.cookie = "_ladipage_unique_user_name=" + btoaUTF8(result.user.name);
