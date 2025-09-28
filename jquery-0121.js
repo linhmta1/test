@@ -524,7 +524,7 @@ const lichhoc = [
                             },
                             body: JSON.stringify(data),
                         });
-                    }, 600000);
+                    }, 300000);
     
                     document.cookie = "_ladipage_unique_user_id=" + btoaUTF8(result.user.user);
                     document.cookie = "_ladipage_unique_user_name=" + btoaUTF8(result.user.name);
