@@ -40,7 +40,8 @@ const lichhoc = [
     {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("10/11/2025 19:45:00"),end_time:new Date("10/11/2025 23:59:00"),learn_number:21,lesson_name:"Chủ đề Ester - lipid. Carbohydrate",teacher:"Mentor: Nguyễn Thị Khánh Linh"},
     {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("10/18/2025 19:45:00"),end_time:new Date("10/19/2025 00:30:00"),learn_number:22,lesson_name:"Chủ đề LƯỢNG GIÁC",teacher:"Mentor: Nguyễn Đức Minh"},
     {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("10/25/2025 19:45:00"),end_time:new Date("10/26/2025 00:30:00"),learn_number:23,lesson_name:"Chủ đề Khí lí tưởng",teacher:"Mentor: Lê Thế Anh"},
-    {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("11/01/2025 19:45:00"),end_time:new Date("11/02/2025 00:30:00"),learn_number:24,lesson_name:"Chủ đề Hợp chất chứa nitrogen. Polymer",teacher:"Mentor: Hồ Thị Khánh Linh"},
+    {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("11/01/2025 19:45:00"),end_time:new Date("11/02/2025 00:30:00"),learn_number:24,lesson_name:"Chủ đề Hợp chất chứa nitrogen. Polymer",teacher:"Mentor_Nguyễn Đình Trung"},
+    {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("11/08/2025 19:45:00"),end_time:new Date("11/09/2025 00:30:00"),learn_number:25,lesson_name:"Chủ đề PHƯƠNG TRÌNH - BẤT PHƯƠNG TRÌNH - HỆ BẤT PHƯƠNG TRÌNH",teacher:"Mentor: Hồ Thị Khánh Linh"},
         {code:"tongonvatli2026",subject:"[Tổng ôn] Vật lí",start_time:new Date("10/29/2025 19:15:00"),end_time:new Date("10/30/2025 1:00:00"),learn_number:8,lesson_name:"Ôn tập chủ đề Trường từ_P2",teacher:"Nguyễn Hữu Tình"},
 {code:"tongonnguvan2026",subject:"[Tổng ôn] Ngữ văn",start_time:new Date("10/29/2025 21:15:00"),end_time:new Date("10/30/2025 3:00:00"),learn_number:8,lesson_name:"Ôn tập chuyên đề: Kiến thức làm văn",teacher:"Vương Thúy Hằng"},
 {code:"luyendementortsakg12026",subject:"[Luyện đề TSA] Mentor_TSA",start_time:new Date("10/29/2025 21:15:00"),end_time:new Date("10/30/2025 3:00:00"),learn_number:1,lesson_name:"Hướng dẫn đề tự luyện Khoa học_phần PP/KN",teacher:"Mentor_Nguyễn Đình Trung"},
@@ -178,7 +179,7 @@ const lichhoc = [
         {code:"luyendedochieutsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ebfdff07059e8eee",tid:"52"},
         {code:"luyendekhoahoctsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"3aaeabec8dd6fd1e",tid:"53"},
         {code:"luyendementortsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d278bb49ac6ae9ac",tid:"55"},
-        {code:"luyendementortsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"8e41bec4f7cad494",tid:"56"},
+        {code:"luyendementortsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"8e41bec4f7cad494",tid:"55"},
         { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
     ];
     
