@@ -205,6 +205,22 @@ const lichhoc = [
         {code:"luyendekhoahoctsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"3aaeabec8dd6fd1e",tid:"53"},
         {code:"luyendementortsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d278bb49ac6ae9ac",tid:"55"},
         {code:"luyendementortsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d278bb49ac6ae9ac",tid:"55"},
+        {code:"luyendelichsuhsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b2c8ea677756b0ae",tid:"57"},
+        {code:"luyendehoahochsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ce0344e994ae584f",tid:"58"},
+        {code:"luyendesinhhochsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"61dd1694d16015e9",tid:"59"},
+        {code:"luyendedinhluonghsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ff0e97ef544eb048",tid:"60"},
+        {code:"luyendedinhtinhhsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"da7dd95baab0af03",tid:"61"},
+        {code:"luyendetienganhhsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"11a069976630c5a8",tid:"62"},
+        {code:"luyendevatlihsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"f839bab6f5ad3480",tid:"63"},
+        {code:"luyendedialihsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e3b92c1c9cb530ae",tid:"64"},
+        {code:"luyendelichsuhsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b2c8ea677756b0ae",tid:"57"},
+        {code:"luyendehoahochsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ce0344e994ae584f",tid:"58"},
+        {code:"luyendesinhhochsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"61dd1694d16015e9",tid:"59"},
+        {code:"luyendedinhluonghsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ff0e97ef544eb048",tid:"60"},
+        {code:"luyendedinhtinhhsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"da7dd95baab0af03",tid:"61"},
+        {code:"luyendetienganhhsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"11a069976630c5a8",tid:"62"},
+        {code:"luyendevatlihsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"f839bab6f5ad3480",tid:"63"},
+        {code:"luyendedialihsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e3b92c1c9cb530ae",tid:"64"},
         { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
     ];
     
