@@ -49,6 +49,7 @@ const lichhoc = [
          {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("12/06/2025 19:45:00"),end_time:new Date("12/07/2025 00:30:00"),learn_number:29,lesson_name:"Chủ đề Nguyên tố nhóm IA và nhóm IIA. Sơ lược về kim loại chuyển tiếp dãy thứ nhất và phức chất",teacher:"Mentor: Hồ Thị Khánh Linh"},
          {code:"mentorsayhi2026",subject:"[Tổng ôn 2026] MentorsayHi",start_time:new Date("12/20/2025 19:45:00"),end_time:new Date("12/21/2025 00:30:00"),learn_number:31,lesson_name:"Chủ đề LOGIC",teacher:"Mentor: Nguyễn Đức Minh"},
     {code:"lopchuadetsa-181225",subject:"[Luyện đề TSA] Mentor_TSA",start_time:new Date("2025-12-18 19:15:00"),end_time:new Date("2025-12-18 23:30:00"),learn_number:1,lesson_name:"Chữa đề thi thử TSA đợt 1",teacher:"Mentor_Nguyễn Đình Trung"},
+    {code:"lopchuadevcat-201225",subject:"[Luyện đề V-ACT] Mentor_V-ACT",start_time:new Date("2025-12-20 21:15:00"),end_time:new Date("2025-12-21 01:00:00"),learn_number:1,lesson_name:"Chữa đề thi thử V-ACT đợt 1",teacher:"Mentor_Lê Thế Anh"},
         {code:"tongontoan2026",subject:"[Tổng ôn] Toán",start_time:new Date("2025-12-02 19:15:00"),end_time:new Date("2025-12-03 01:00:00"),learn_number:13,lesson_name:"Ôn tập chủ đề Hình học giải tích trong không gian (P2)",teacher:"Nguyễn Thanh Tùng"},
 {code:"luyendekhoahoctsakg12026",subject:"[Luyện đề TSA] KH",start_time:new Date("2025-12-02 19:15:00"),end_time:new Date("2025-12-03 01:00:00"),learn_number:15,lesson_name:"Luyện đề TSA26D - Phần Tư duy Khoa học",teacher:"Vũ Khắc Ngọc"},
 {code:"luyendetiengvietvactkg12026",subject:"[Luyện đề V-ACT] Tiếng Việt",start_time:new Date("2025-12-02 19:15:00"),end_time:new Date("2025-12-03 01:00:00"),learn_number:1,lesson_name:"Tiếng Việt_V-ACT26_Luyện đề 01",teacher:"Văn Trịnh Quỳnh An"},
@@ -299,6 +300,7 @@ const lichhoc = [
 {code:"luyendekhoahocptslvacttc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"697e51d140376016",tid:"70"},
 {code:"luyendementorvactkg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
 {code:"luyendementorvacttc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
+{code:"lopchuadevcat-201225",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
         { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
     ];
     
