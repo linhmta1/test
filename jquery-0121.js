@@ -239,8 +239,8 @@ const lichhoc = [
 {code:"luyendekhoahocptslvactkg12026",subject:"[Luyện đề V-ACT] LG&PTSL3",start_time:new Date("2025-12-31 19:15:00"),end_time:new Date("2026-01-01 01:00:00"),learn_number:15,lesson_name:"LG&PTSL_V-ACT26_Luyện đề 34",teacher:"Nguyễn Hoài Nam"},
 {code:"luyendedochieutsakg12026",subject:"[Luyện đề TSA] ĐH",start_time:new Date("2025-12-31 21:15:00"),end_time:new Date("2026-01-01 03:00:00"),learn_number:28,lesson_name:"Luyện đề TSA26IJ - Phần Tư duy Đọc hiểu",teacher:"Vũ Khắc Ngọc"},
 {code:"luyendedochieutsatc12026",subject:"[Luyện đề TSA] ĐH",start_time:new Date("2025-12-31 21:15:00"),end_time:new Date("2026-01-01 03:00:00"),learn_number:28,lesson_name:"Luyện đề TSA26IJ - Phần Tư duy Đọc hiểu",teacher:"Vũ Khắc Ngọc"},
-{code:"luyendedinhtinhhsakg12026",subject:"[Luyện đề HSA] Ngữ văn",start_time:new Date("2025-12-31 21:15:00"),end_time:new Date("2026-01-01 03:00:00"),learn_number:5,lesson_name:"Luyện đề HSA26E - Phần Tư duy định tính",teacher:"Phạm Hữu Cường"},
-{code:"luyendedinhtinhhsatc12026",subject:"[Luyện đề HSA] Ngữ văn",start_time:new Date("2025-12-31 21:15:00"),end_time:new Date("2026-01-01 03:00:00"),learn_number:5,lesson_name:"Luyện đề HSA26E - Phần Tư duy định tính",teacher:"Phạm Hữu Cường"},
+{code:"luyendedinhtinhhsakg12026",subject:"[Luyện đề HSA] Ngữ văn",start_time:new Date("2025-12-28 21:15:00"),end_time:new Date("2026-12-29 03:00:00"),learn_number:5,lesson_name:"Luyện đề HSA26E - Phần Tư duy định tính",teacher:"Phạm Hữu Cường"},
+{code:"luyendedinhtinhhsatc12026",subject:"[Luyện đề HSA] Ngữ văn",start_time:new Date("2025-12-28 21:15:00"),end_time:new Date("2026-12-29 03:00:00"),learn_number:5,lesson_name:"Luyện đề HSA26E - Phần Tư duy định tính",teacher:"Phạm Hữu Cường"},
     
         {code:"demo",subject:"[Demo] Demo",start_time:new Date("5/22/2025 14:22:00"),end_time:new Date("5/22/2025 16:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
