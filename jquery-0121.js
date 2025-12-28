@@ -244,7 +244,18 @@ const lichhoc = [
     
         {code:"demo",subject:"[Demo] Demo",start_time:new Date("5/22/2025 14:22:00"),end_time:new Date("5/22/2025 16:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
-    
+
+const lichhoctest = [
+        { code: "demo-topuni", number: 2 },
+        { code: "demo-topuni", number: 3 },
+        { code: "luyendementortsakg12026", number: 11 },
+          { code: "luyendementortsatc12026", number: 11 },
+          { code: "luyendelichsuhsakg12026", number: 2 },
+          { code: "luyendetoanvactkg12026", number: 12 },
+          { code: "luyendedinhtinhhsakg12026", number: 5 },
+          { code: "luyendedinhtinhhsatc12026", number: 5 }
+    ];
+
     const boxList = [
         {code:"mentorsayhihsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"8e41bec4f7cad494",tid:"56"},
         {code:"mentorsayhitsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"8e41bec4f7cad494",tid:"56"},
