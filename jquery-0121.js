@@ -246,14 +246,14 @@ const lichhoc = [
     ];
 
 const lichhoctest = [
-        { code: "demo-topuni", number: 2 },
-        { code: "demo-topuni", number: 3 },
-        { code: "luyendementortsakg12026", number: 11 },
-          { code: "luyendementortsatc12026", number: 11 },
-          { code: "luyendelichsuhsakg12026", number: 2 },
-          { code: "luyendetoanvactkg12026", number: 12 },
-          { code: "luyendedinhtinhhsakg12026", number: 5 },
-          { code: "luyendedinhtinhhsatc12026", number: 5 }
+        { code: "demo-topuni", learn_number: 2 },
+        { code: "demo-topuni", learn_number: 3 },
+        { code: "luyendementortsakg12026", learn_number: 11 },
+          { code: "luyendementortsatc12026", learn_number: 11 },
+          { code: "luyendelichsuhsakg12026", learn_number: 2 },
+          { code: "luyendetoanvactkg12026", learn_number: 12 },
+          { code: "luyendedinhtinhhsakg12026", learn_number: 5 },
+          { code: "luyendedinhtinhhsatc12026", learn_number: 5 }
     ];
 
     const boxList = [
