@@ -246,7 +246,8 @@ const lichhoc = [
     ];
 
 const lichhoctest = [
-        { code: "demo-topuni", learn_number: 2 },
+    { code: "demo-topuni", learn_number: 1 },    
+    { code: "demo-topuni", learn_number: 2 },
         { code: "demo-topuni", learn_number: 3 },
         { code: "luyendementortsakg12026", learn_number: 11 },
           { code: "luyendementortsatc12026", learn_number: 11 },
