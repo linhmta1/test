@@ -158,20 +158,10 @@ const lichhoc = [
 {code:"luyendetoanvacttc12026",subject:"[Luyện đề V-ACT] Toán",start_time:new Date("2026-01-15 21:15:00"),end_time:new Date("2026-01-16 03:00:00"),learn_number:21,lesson_name:"Toán_V-ACT26_Luyện đề 06",teacher:"Nguyễn Hoài Nam"},
     {code:"demo-topuni",subject:"[Demo] Demo TopUni",start_time:new Date("2025-12-29 10:15:00"),end_time:new Date("2025-12-29 20:00:00"),learn_number:1,lesson_name:"Demo TopUni Buổi 1",teacher:"Nguyễn Ngọc Tú"},
     {code:"demo-topuni2",subject:"[Demo] Demo TopUni",start_time:new Date("2025-12-29 10:15:00"),end_time:new Date("2025-12-29 23:00:00"),learn_number:2,lesson_name:"Demo TopUni Buổi 1",teacher:"Nguyễn Ngọc Tú"},
+    {code:"demo-topuni3",subject:"[Demo] Demo TopUni",start_time:new Date("2025-12-29 10:15:00"),end_time:new Date("2025-12-29 23:00:00"),learn_number:3,lesson_name:"Demo TopUni Buổi 1",teacher:"Nguyễn Ngọc Tú"},
         {code:"demo",subject:"[Demo] Demo",start_time:new Date("5/22/2025 14:22:00"),end_time:new Date("5/22/2025 16:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
 
-const lichhoctest = [
-    { code: "demo-topuni", learn_number: 1 },    
-    { code: "demo-topuni", learn_number: 2 },
-        { code: "demo-topuni", learn_number: 3 },
-        { code: "luyendementortsakg12026", learn_number: 11 },
-          { code: "luyendementortsatc12026", learn_number: 11 },
-          { code: "luyendelichsuhsakg12026", learn_number: 2 },
-          { code: "luyendetoanvactkg12026", learn_number: 12 },
-          { code: "luyendedinhtinhhsakg12026", learn_number: 5 },
-          { code: "luyendedinhtinhhsatc12026", learn_number: 5 }
-    ];
 
     const boxList = [
         {code:"mentorsayhihsa",boxid:"952000",boxtag:"3Ot9Nu",tkey:"8e41bec4f7cad494",tid:"56"},
@@ -233,6 +223,7 @@ const lichhoctest = [
 {code:"lopchuadevcat-201225",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
         { code: "demo-topuni", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" },
         { code: "demo-topuni2", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" },
+        {code:"demo-topuni3",boxid:"952000",boxtag:"3Ot9Nu",tkey:"76b5c3918fdfcc8e",tid:"34"},
         { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
     ];
 
