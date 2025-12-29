@@ -232,7 +232,7 @@ const lichhoctest = [
 {code:"lopchuadevcat-201225",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
         { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
     ];
-    
+
     function getBoxByCode(code) {
         // Loop through each object in the list
         for (const box of boxList) {
@@ -242,53 +242,55 @@ const lichhoctest = [
                 return box;
             }
         }
-    
+
         // If no match is found, return undefined
         return undefined;
     }
     const today = new Date();
-    
+
     function checkCurrentTimeInSchedule(code, learn_number) {
+        console.log("[checkCurrentTimeInSchedule] Checking:", { code, learn_number });
         const now = new Date();
         const result = lichhoc.filter((item) => item.code === code && item.learn_number === learn_number && now >= item.start_time && now <= item.end_time);
-    
+
         if (result.length > 0) {
-            //if (now >= result.start_time && now <= result.end_time) {
-            //alert("ok");
-            //} else {
-            //clearInterval(checkSessionInterval);
-            //gắn đoạn code logout bắt đăng nhập lại
-            //document.cookie = "_ladipage_unique_user_id=";
-            //window.location.href = "https://topclass.hocmai.vn/lophoc?subject="+code;
-            //}
+            console.log("[checkCurrentTimeInSchedule] ✅ Found valid schedule:", result);
         } else {
-            //alert("Không tìm thấy lịch học.");
+            console.warn("[checkCurrentTimeInSchedule] ❌ No valid schedule found, clearing cookie");
             document.cookie = "_ladipage_unique_user_id=";
-            window.location.href = "https://topuni.hocmai.vn/lichhoc";
         }
     }
-    
+
     function checkClassAvailability(subjectCode) {
+        console.log("[checkClassAvailability] Checking code:", subjectCode);
         // Find classes for the specified subject
         const subjectClasses = lichhoc.filter((item) => item.code === subjectCode);
+        console.log("[checkClassAvailability] Found classes:", subjectClasses.length);
+
         // Check if any class is happening now
         const ongoingClass = subjectClasses.find((item) => {
             return today >= item.start_time && today < item.end_time;
         });
-    
-        return ongoingClass ? ongoingClass.learn_number : 0;
+
+        if (ongoingClass) {
+            console.log("[checkClassAvailability] ✅ Ongoing class found:", ongoingClass);
+            return ongoingClass.learn_number;
+        } else {
+            console.warn("[checkClassAvailability] ❌ No ongoing class for:", subjectCode);
+            return 0;
+        }
     }
-    
+
     function encodeBase64(str) {
         return btoa(unescape(encodeURIComponent(str)));
     }
-    
+
     function decodeBase64(str) {
         return decodeURIComponent(escape(atob(str)));
     }
-    
+
     let checkSessionInterval;
-    
+
     function checkSessionStatus(user, code, learn_number) {
         console.log("check ip");
         // Tạo dữ liệu yêu cầu POST
@@ -302,7 +304,7 @@ const lichhoctest = [
             body: JSON.stringify({ user }),
             // body: JSON.stringify({ action: 'check_session' })
         };
-    
+
         // Gửi yêu cầu POST đến API
         fetch("https://api-stream.hocmai.net/check_session", requestData)
             .then((response) => response.json())
@@ -311,13 +313,13 @@ const lichhoctest = [
                     clearInterval(checkSessionInterval);
                     //gắn đoạn code logout bắt đăng nhập lại
                     document.cookie = "_ladipage_unique_user_id=";
-                    window.location.href = "https://topuni.hocmai.vn/lichhoc"+"&return=multi";
-    
+                    //window.location.href = "https://topuni.hocmai.vn/lichhoc"+"&return=multi";
+
                     //alert('You have been logged out due to a login from another IP.');
                 }
             })
             .catch((error) => console.error("Error:", error));
-    
+
         checkCurrentTimeInSchedule(code, learn_number);
     }
     let global_check = false;
@@ -326,7 +328,7 @@ const lichhoctest = [
         const c_id = atobUTF8(getCookie("_ladipage_unique_user_id"));
         var code = window.location.href.substring(28);
         const apiUrl = `https://script.google.com/macros/s/AKfycbz5Eo9LL7Ha7pP6v9qwn2mnz-se61o-golud4gH3ArhZbW-WJpQeH6FQhcEiPCmOCzANA/exec?action=checkSpam&username=${c_id}&code=${code}`;
-    
+
         // Sử dụng fetch để gọi API
         fetch(apiUrl)
             .then((response) => {
@@ -351,7 +353,7 @@ const lichhoctest = [
             check_spam(); // Call function a() if status is false
         }
     }
-    
+
     setInterval(checkStatus, 36000000); // Check every 10 minutes (600000 ms)
     function getBoxChat(name, code) {
         //boxchat start here
@@ -367,24 +369,24 @@ const lichhoctest = [
             lnk: "", // Replace with profile URL (optional)
             pic: "", // Replace with avatar URL (optional)
         };
-    
+
         const arr = [];
-    
+
         // Corrected: for...of loop to iterate over object properties
         for (const [key, value] of Object.entries(params)) {
             if (value) {
                 arr.push(`${key}=${encodeURIComponent(value)}`);
             }
         }
-    
+
         const path = "/box/?" + arr.join("&");
-    
+
         // Cryptographic Hashing (Requires CryptoJS)
         const hash = CryptoJS.HmacSHA256(path, secret);
         const sig = encodeURIComponent(CryptoJS.enc.Base64.stringify(hash));
-    
+
         const url = "https://www5.cbox.ws" + path + "&sig=" + sig;
-    
+
         // Create the iframe
         const iframe = document.createElement("iframe");
         iframe.width = "100%";
@@ -395,13 +397,13 @@ const lichhoctest = [
         iframe.scrolling = "no";
         iframe.allowTransparency = "yes";
         iframe.frameBorder = "0";
-    
+
         // Append the iframe to your desired container (e.g., <div id="cboxContainer"></div>)
-    
+
         const c_id = atobUTF8(getCookie("_ladipage_unique_user_id"));
         // URL của API Google Apps Script
         const apiUrl = `https://script.google.com/macros/s/AKfycbz5Eo9LL7Ha7pP6v9qwn2mnz-se61o-golud4gH3ArhZbW-WJpQeH6FQhcEiPCmOCzANA/exec?action=checkSpam&username=${c_id}&code=${code}`;
-    
+
         // Sử dụng fetch để gọi API
         fetch(apiUrl)
             .then((response) => {
@@ -432,84 +434,93 @@ const lichhoctest = [
             });
     }
     async function loading() {
+        console.log("[loading] 🚀 Starting loading function");
         status = 1;
         var c_user = getCookie("_ladipage_unique_user_id");
         var code = window.location.href.substring(28);
-    
+        console.log("[loading] Extracted code from URL:", code);
+        console.log("[loading] User cookie:", c_user ? "Found" : "Not found");
+
         const learn_number = checkClassAvailability(code);
+        console.log("[loading] Learn number:", learn_number);
+
         if (learn_number == 0) {
-            window.location.href = "https://topuni.hocmai.vn/lichhoc";
+            console.error("[loading] ❌ No class available, should redirect to lichhoc");
+            //window.location.href = "https://topuni.hocmai.vn/lichhoc";
+            return;
         }
-    
+
         if (c_user != "") {
-            //check lượt học
+            console.log("[loading] ✅ User found, calling check()");
             await check(c_user, code, learn_number);
         } else {
-            window.location.href = "https://topuni.hocmai.vn/lichhoc";
+            console.error("[loading] ❌ No user cookie, should redirect to lichhoc");
+           // window.location.href = "https://topuni.hocmai.vn/lichhoc";
+           return;
         }
-    
+
         //const secret = "648214918886d99c";
         const name = atobUTF8(getCookie("_ladipage_unique_user_name"));
-    
+
         if (name == null || name == "") {
             await check(c_user, code, learn_number);
         }
-    
+
         getBoxChat(name, code);
     }
-    
+
     async function insertSignalDivIfNeeded() {
         // Kiểm tra xem div có id "signal" đã tồn tại chưa
         const existingSignalDiv = document.getElementById("signal");
-    
+
         // Nếu đã tồn tại, không làm gì cả
         if (existingSignalDiv) {
             console.log("Div có id 'signal' đã tồn tại.");
             return;
         }
-    
+
         // Tìm thẻ div có id là "my-video_html5_api"
         const targetDiv = document.getElementById("my-video_html5_api");
-    
+
         // Nếu thẻ div không tồn tại, thoát khỏi hàm
         if (!targetDiv) {
             console.warn("Không tìm thấy thẻ div có id 'my-video_html5_api'.");
             return;
         }
-    
+
         // Tạo phần tử div mới với id là "signal"
         const signalDiv = document.createElement("div");
         signalDiv.id = "signal";
-    
+
         // Chèn phần tử div mới vào trước thẻ div mục tiêu
         targetDiv.parentNode.insertBefore(signalDiv, targetDiv);
         const response = await fetch("https://api.ipify.org?format=json");
         const dataip = await response.json();
         const signal = document.getElementById("signal");
-    
+
         document.getElementById("signal").innerHTML = encodeBase64(dataip.ip);
     }
-    
+
     function moveSignal() {
         const video = document.getElementById("my-video");
         insertSignalDivIfNeeded();
         const signal = document.getElementById("signal");
-    
+
         const videoWidth = video.clientWidth;
         const videoHeight = video.clientHeight;
         const signalWidth = signal.clientWidth;
         const signalHeight = signal.clientHeight;
-    
+
         const maxLeft = videoWidth - signalWidth;
         const maxTop = videoHeight - signalHeight;
-    
+
         const randomLeft = Math.random() * maxLeft;
         const randomTop = Math.random() * maxTop;
-    
+
         signal.style.left = randomLeft + "px";
         signal.style.top = randomTop + "px";
     }
-    
+
     window.onload = async function () {
         loading();
         status = 2;
@@ -519,7 +530,7 @@ const lichhoctest = [
         } catch (error) {}
     };
     //setInterval(loading, 500000);
-    
+
     function getCookie(cname) {
         let name = cname + "=";
         let decodedCookie = decodeURIComponent(document.cookie);
@@ -535,11 +546,12 @@ const lichhoctest = [
         }
         return "";
     }
-    
+
     async function check(c_user, code, learn_number) {
-        //user, code, learn_number
+        console.log("[check] 🔍 Starting check:", { code, learn_number });
         var user = atobUTF8(c_user);
-    
+        console.log("[check] Decoded user:", user);
+
         if (code.length > 0 && user.length > 0) {
             try {
                 data = {
@@ -548,7 +560,8 @@ const lichhoctest = [
                     learn_number,
                     status,
                 };
-    
+                console.log("[check] Sending data to API:", data);
+
                 const response = await fetch("https://api-stream.hocmai.net/check_user", {
                     method: "POST",
                     headers: {
@@ -557,40 +570,23 @@ const lichhoctest = [
                     },
                     body: JSON.stringify(data),
                 });
-    
+
                 if (!response.ok) {
+                    console.error("[check] ❌ API response not OK:", response.status);
                     throw new Error("Network response was not ok");
                 }
-    
+
                 const result = await response.json();
-    
+                console.log("[check] API result:", result);
+
                 if (result.success) {
-                    //alert(JSON.stringify(result));
+                    console.log("[check] ✅ Check successful, setting up intervals");
                     checkSessionInterval = setInterval(() => {
                         checkSessionStatus(user, code, learn_number);
                     }, 50000);
-    
-                    /*
-                        const log = await fetch('https://api-stream.hocmai.net/log_learning', {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json',
-                                'Authorization': 'Bearer 1233tOk3WKdw30w75eilg6It83r'
-                            },
-                            body: JSON.stringify(data)
-                        });
-                        */
-                    const log = await fetch("https://api-stream.hocmai.net/log_learning", {
-                        method: "POST",
-                        headers: {
-                            "Content-Type": "application/json",
-                            Authorization: "Bearer 1233tOk3WKdw30w75eilg6It83r",
-                        },
-                        body: JSON.stringify(data),
-                    });
-    
-                    setInterval(async () => {
-                        data.status = status;
+
+                    // Call log_learning API
+                    try {
                         const log = await fetch("https://api-stream.hocmai.net/log_learning", {
                             method: "POST",
                             headers: {
@@ -599,20 +595,42 @@ const lichhoctest = [
                             },
                             body: JSON.stringify(data),
                         });
+                        console.log("[check] log_learning response:", log.status);
+                    } catch (logError) {
+                        console.warn("[check] ⚠️ log_learning failed (expected):", logError.message);
+                    }
+
+                    setInterval(async () => {
+                        data.status = status;
+                        try {
+                            const log = await fetch("https://api-stream.hocmai.net/log_learning", {
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/json",
+                                    Authorization: "Bearer 1233tOk3WKdw30w75eilg6It83r",
+                                },
+                                body: JSON.stringify(data),
+                            });
+                        } catch (err) {
+                            console.warn("[check] ⚠️ Periodic log_learning failed:", err.message);
+                        }
                     }, 300000);
-    
+
                     document.cookie = "_ladipage_unique_user_id=" + btoaUTF8(result.user.user);
                     document.cookie = "_ladipage_unique_user_name=" + btoaUTF8(result.user.name);
-                    //alert("ok học bình thường");
+                    console.log("[check] ✅ Cookies set successfully");
                 } else {
-                    //clear cookie and redirect
+                    console.error("[check] ❌ Check failed, clearing cookie");
                     document.cookie = "_ladipage_unique_user_id=";
-                    window.location.href = "https://topuni.hocmai.vn/lichhoc";
+                    //window.location.href = "https://topuni.hocmai.vn/lichhoc";
                 }
             } catch (error) {
-                console.error("Fetch error: ", error);
-                console.log(error.message);
+                console.error("[check] ❌ Fetch error:", error);
+                console.error("[check] Error message:", error.message);
+                console.error("[check] Error stack:", error.stack);
                 alert("Hệ thống đang quá tải, vui lòng thử lại sau");
             }
+        } else {
+            console.warn("[check] ⚠️ Invalid code or user:", { code: code.length, user: user.length });
         }
     }
