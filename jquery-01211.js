@@ -157,6 +157,7 @@ const lichhoc = [
 {code:"luyendetoanvactkg12026",subject:"[Luyện đề V-ACT] Toán",start_time:new Date("2026-01-15 21:15:00"),end_time:new Date("2026-01-16 03:00:00"),learn_number:21,lesson_name:"Toán_V-ACT26_Luyện đề 06",teacher:"Nguyễn Hoài Nam"},
 {code:"luyendetoanvacttc12026",subject:"[Luyện đề V-ACT] Toán",start_time:new Date("2026-01-15 21:15:00"),end_time:new Date("2026-01-16 03:00:00"),learn_number:21,lesson_name:"Toán_V-ACT26_Luyện đề 06",teacher:"Nguyễn Hoài Nam"},
     {code:"demo-topuni",subject:"[Demo] Demo TopUni",start_time:new Date("2025-12-29 10:15:00"),end_time:new Date("2025-12-29 20:00:00"),learn_number:1,lesson_name:"Demo TopUni Buổi 1",teacher:"Nguyễn Ngọc Tú"},
+    {code:"demo-topuni2",subject:"[Demo] Demo TopUni",start_time:new Date("2025-12-29 10:15:00"),end_time:new Date("2025-12-29 20:00:00"),learn_number:1,lesson_name:"Demo TopUni Buổi 1",teacher:"Nguyễn Ngọc Tú"},
         {code:"demo",subject:"[Demo] Demo",start_time:new Date("5/22/2025 14:22:00"),end_time:new Date("5/22/2025 16:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
     ];
 
@@ -231,6 +232,7 @@ const lichhoctest = [
 {code:"luyendementorvacttc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
 {code:"lopchuadevcat-201225",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
         { code: "demo-topuni", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" },
+        { code: "demo-topuni2", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" },
         { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
     ];
 
