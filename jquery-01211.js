@@ -230,6 +230,7 @@ const lichhoctest = [
 {code:"luyendementorvactkg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
 {code:"luyendementorvacttc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
 {code:"lopchuadevcat-201225",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
+        { code: "demo-topuni", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" },
         { code: "demo", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" }
     ];
 
