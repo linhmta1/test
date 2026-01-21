@@ -366,6 +366,8 @@ const lichhoc = [
 {code:"luyendementorhsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"56979b1f24efa327",tid:"103"},
         {code:"luyendelichsuhsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b0a0ad34db1db39a",tid:"94"},
 {code:"luyendelichsuhsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b0a0ad34db1db39a",tid:"94"},
+        {code:"luyendedialihsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"c6f8ff61539c4871",tid:"101"},
+{code:"luyendedialihsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"c6f8ff61539c4871",tid:"101"},
         { code: "demo-topuni", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" },
         { code: "demo-topuni2", boxid: "952000", boxtag: "3Ot9Nu", tkey: "5cec50d8a8e9397e", tid: "3" },
         {code:"demo-topuni3",boxid:"952000",boxtag:"3Ot9Nu",tkey:"76b5c3918fdfcc8e",tid:"34"},
