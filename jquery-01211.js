@@ -481,7 +481,7 @@ const lichhoc = [
 {code:"luyendesinhhochsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b9c3c3ded29cc325",tid:"84"},
         {code:"luyendehoahochsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"2c6b6cd023e503cf",tid:"95"},
 {code:"luyendehoahochsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"2c6b6cd023e503cf",tid:"95"},
-        {code:"luyendetoantsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"dd5597719983213b",tid:"76"},
+        {code:"capnhatdiemtsad12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"dd5597719983213b",tid:"76"},
 {code:"luyendetoantsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"dd5597719983213b",tid:"76"},
         {code:"luyendetoantsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"dd5597719983213b",tid:"76"},
 {code:"luyendetoantsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"dd5597719983213b",tid:"76"},
