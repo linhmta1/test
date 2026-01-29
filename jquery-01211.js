@@ -531,7 +531,7 @@ const lichhoc = [
                             document.getElementById("boxchat").appendChild(iframe);
                             clearInterval(intervalId); // Dừng vòng lặp
                         }
-                    }, 500); // 1000 milliseconds = 1 second
+                    }, 1500); // 1000 milliseconds = 1 second
                 }
                 // end load box chat
             })
