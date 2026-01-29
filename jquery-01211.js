@@ -15,46 +15,6 @@ function atobUTF8(base64Str) {
 }
 
 const lichhoc = [
-{code:"luyendementortsakg12026",subject:"[Luyện đề TSA] Mentor_TSA",start_time:new Date("2026-01-22 19:15:00"),end_time:new Date("2026-01-23 01:00:00"),learn_number:12,lesson_name:"Chữa đề thi thử TSA tháng 1.2026",teacher:"Mentor_Nguyễn Đình Trung"},
-{code:"luyendementortsatc12026",subject:"[Luyện đề TSA] Mentor_TSA",start_time:new Date("2026-01-22 19:15:00"),end_time:new Date("2026-01-23 01:00:00"),learn_number:12,lesson_name:"Chữa đề thi thử TSA tháng 1.2026",teacher:"Mentor_Nguyễn Đình Trung"},
-{code:"luyendementortsakg22026",subject:"[Luyện đề TSA] Mentor_TSA",start_time:new Date("2026-01-22 19:15:00"),end_time:new Date("2026-01-23 01:00:00"),learn_number:1,lesson_name:"Chữa đề thi thử TSA tháng 1.2026",teacher:"Mentor_Nguyễn Đình Trung"},
-{code:"luyendementortsatc22026",subject:"[Luyện đề TSA] Mentor_TSA",start_time:new Date("2026-01-22 19:15:00"),end_time:new Date("2026-01-23 01:00:00"),learn_number:1,lesson_name:"Chữa đề thi thử TSA tháng 1.2026",teacher:"Mentor_Nguyễn Đình Trung"},
-{code:"luyendedinhluonghsakg12026",subject:"[Luyện đề HSA] Toán",start_time:new Date("2026-01-22 19:15:00"),end_time:new Date("2026-01-23 01:00:00"),learn_number:7,lesson_name:"Luyện đề HSA26G - Phần Tư duy Định lượng",teacher:"Nguyễn Đức Tài"},
-{code:"luyendelichsuhsakg22026",subject:"[Luyện đề HSA] Lịch sử",start_time:new Date("2026-01-22 19:15:00"),end_time:new Date("2026-01-23 01:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Lịch sử",teacher:"Dương Thị Huyền"},
-{code:"luyendevatlihsakg12026",subject:"[Luyện đề HSA] Vật lí",start_time:new Date("2026-01-22 21:15:00"),end_time:new Date("2026-01-23 03:00:00"),learn_number:3,lesson_name:"Luyện đề HSA26EF - Phần Khoa học Vật lí",teacher:"Nguyễn Hữu Tình"},
-{code:"luyendevatlihsatc12026",subject:"[Luyện đề HSA] Vật lí",start_time:new Date("2026-01-22 21:15:00"),end_time:new Date("2026-01-23 03:00:00"),learn_number:3,lesson_name:"Luyện đề HSA26EF - Phần Khoa học Vật lí",teacher:"Nguyễn Hữu Tình"},
-{code:"luyendesinhhochsakg22026",subject:"[Luyện đề HSA] Sinh học",start_time:new Date("2026-01-22 21:15:00"),end_time:new Date("2026-01-23 03:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Sinh học",teacher:"Nguyễn Thành Công"},
-{code:"luyendesinhhochsatc22026",subject:"[Luyện đề HSA] Sinh học",start_time:new Date("2026-01-22 21:15:00"),end_time:new Date("2026-01-23 03:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Sinh học",teacher:"Nguyễn Thành Công"},
-{code:"luyendekhoahocptslvactkg12026",subject:"[Luyện đề V-ACT] LG&PTSL5",start_time:new Date("2026-01-22 21:15:00"),end_time:new Date("2026-01-23 03:00:00"),learn_number:24,lesson_name:"LG&PTSL_V-ACT26_Luyện đề 56",teacher:"Nguyễn Hoài Nam"},
-{code:"luyendekhoahocptslvacttc12026",subject:"[Luyện đề V-ACT] LG&PTSL5",start_time:new Date("2026-01-22 21:15:00"),end_time:new Date("2026-01-23 03:00:00"),learn_number:24,lesson_name:"LG&PTSL_V-ACT26_Luyện đề 56",teacher:"Nguyễn Hoài Nam"},
-{code:"luyendetoantsakg22026",subject:"[Luyện đề TSA] Toán",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:2,lesson_name:"P1_Phương pháp, kĩ năng xử lí phần thi Tư duy toán học - Đề thi thử 123 (Cẩm nang)",teacher:"Nguyễn Thanh Tùng"},
-{code:"luyendekhoahoctsakg22026",subject:"[Luyện đề TSA] KH",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:1,lesson_name:"P1_PP/KN xử lí phần thi Tư duy khoa học",teacher:"Vũ Khắc Ngọc"},
-{code:"luyendetoantsatc22026",subject:"[Luyện đề TSA] Toán",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:2,lesson_name:"P1_Phương pháp, kĩ năng xử lí phần thi Tư duy toán học - Đề thi thử 123 (Cẩm nang)",teacher:"Nguyễn Thanh Tùng"},
-{code:"luyendetienganhhsakg12026",subject:"[Luyện đề HSA] Tiếng Anh",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:7,lesson_name:"Luyện đề HSA26G - Phần Tiếng Anh",teacher:"Nguyễn Trung Nguyên"},
-{code:"luyendedinhtinhhsakg12026",subject:"[Luyện đề HSA] Ngữ văn4",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:7,lesson_name:"Luyện đề HSA26G - Phần Tư duy định tính",teacher:"Phạm Hữu Cường"},
-{code:"luyendetienganhhsatc12026",subject:"[Luyện đề HSA] Tiếng Anh",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:7,lesson_name:"Luyện đề HSA26G - Phần Tiếng Anh",teacher:"Nguyễn Trung Nguyên"},
-{code:"luyendehoahochsakg22026",subject:"[Luyện đề HSA] Hóa học",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Hóa học",teacher:"Vũ Tuấn Minh"},
-{code:"luyendedialihsakg22026",subject:"[Luyện đề HSA] Địa lí",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Địa lí",teacher:"Nguyễn Văn Vinh"},
-{code:"luyendehoahochsatc22026",subject:"[Luyện đề HSA] Hóa học",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Hóa học",teacher:"Vũ Tuấn Minh"},
-{code:"luyendekhoahocptslvactkg12026",subject:"[Luyện đề V-ACT] LG&PTSL5",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:24,lesson_name:"LG&PTSL_V-ACT26_Luyện đề 56",teacher:"Nguyễn Hoài Nam"},
-{code:"luyendetienganhvactkg12026",subject:"[Luyện đề V-ACT] Tiếng Anh",start_time:new Date("2026-01-23 19:15:00"),end_time:new Date("2026-01-24 01:00:00"),learn_number:22,lesson_name:"Tiếng Anh_V-ACT26_Luyện đề 07",teacher:"Nguyễn Thanh Hương"},
-{code:"luyendekhoahoctsakg22026",subject:"[Luyện đề TSA] KH",start_time:new Date("2026-01-24 19:15:00"),end_time:new Date("2026-01-25 01:00:00"),learn_number:1,lesson_name:"P1_PP/KN xử lí phần thi Tư duy khoa học",teacher:"Vũ Khắc Ngọc"},
-{code:"luyendetiengvietvactkg12026",subject:"[Luyện đề V-ACT] Tiếng Việt",start_time:new Date("2026-01-24 19:15:00"),end_time:new Date("2026-01-25 01:00:00"),learn_number:23,lesson_name:"Tiếng Việt_V-ACT26_Luyện đề 05",teacher:"Văn Trịnh Quỳnh An"},
-{code:"luyendedinhtinhhsakg12026",subject:"[Luyện đề HSA] Ngữ văn4",start_time:new Date("2026-01-24 20:45:00"),end_time:new Date("2026-01-25 02:30:00"),learn_number:7,lesson_name:"Luyện đề HSA26G - Phần Tư duy định tính",teacher:"Phạm Hữu Cường"},
-{code:"luyendedialihsakg22026",subject:"[Luyện đề HSA] Địa lí",start_time:new Date("2026-01-24 20:45:00"),end_time:new Date("2026-01-25 02:30:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Địa lí",teacher:"Nguyễn Văn Vinh"},
-{code:"luyendekhoahocslkhvactkg12026",subject:"[Luyện đề V-ACT] SLKH",start_time:new Date("2026-01-24 21:15:00"),end_time:new Date("2026-01-25 03:00:00"),learn_number:25,lesson_name:"SLKH_V-ACT26_Luyện đề 567_KHTN",teacher:"Vũ Khắc Ngọc"},
-{code:"luyendekhoahocslkhvacttc12026",subject:"[Luyện đề V-ACT] SLKH",start_time:new Date("2026-01-24 21:15:00"),end_time:new Date("2026-01-25 03:00:00"),learn_number:25,lesson_name:"SLKH_V-ACT26_Luyện đề 567_KHTN",teacher:"Vũ Khắc Ngọc"},
-{code:"luyendetoantsakg12026",subject:"[Luyện đề TSA] Toán",start_time:new Date("2026-01-25 17:45:00"),end_time:new Date("2026-01-25 23:30:00"),learn_number:31,lesson_name:"Cập nhật tình hình thi TSA đợt 1",teacher:"Nguyễn Thanh Tùng"},
-{code:"luyendetoantsatc12026",subject:"[Luyện đề TSA] Toán",start_time:new Date("2026-01-25 17:45:00"),end_time:new Date("2026-01-25 23:30:00"),learn_number:31,lesson_name:"Cập nhật tình hình thi TSA đợt 1",teacher:"Nguyễn Thanh Tùng"},
-{code:"luyendetoantsakg22026",subject:"[Luyện đề TSA] Toán",start_time:new Date("2026-01-25 19:15:00"),end_time:new Date("2026-01-26 01:00:00"),learn_number:31,lesson_name:"Cập nhật tình hình thi TSA đợt 1",teacher:"Nguyễn Thanh Tùng"},
-{code:"luyendetoantsatc22026",subject:"[Luyện đề TSA] Toán",start_time:new Date("2026-01-25 19:15:00"),end_time:new Date("2026-01-26 01:00:00"),learn_number:31,lesson_name:"Cập nhật tình hình thi TSA đợt 1",teacher:"Nguyễn Thanh Tùng"},
-{code:"luyendevatlihsakg12026",subject:"[Luyện đề HSA] Vật lí",start_time:new Date("2026-01-25 19:15:00"),end_time:new Date("2026-01-26 01:00:00"),learn_number:3,lesson_name:"Luyện đề HSA26EF - Phần Khoa học Vật lí",teacher:"Nguyễn Hữu Tình"},
-{code:"luyendedinhluonghsakg12026",subject:"[Luyện đề HSA] Toán",start_time:new Date("2026-01-25 19:15:00"),end_time:new Date("2026-01-26 01:00:00"),learn_number:7,lesson_name:"Luyện đề HSA26G - Phần Tư duy Định lượng",teacher:"Nguyễn Đức Tài"},
-{code:"luyendesinhhochsakg22026",subject:"[Luyện đề HSA] Sinh học",start_time:new Date("2026-01-25 19:15:00"),end_time:new Date("2026-01-26 01:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Sinh học",teacher:"Nguyễn Thành Công"},
-{code:"luyendelichsuhsakg22026",subject:"[Luyện đề HSA] Lịch sử",start_time:new Date("2026-01-25 19:15:00"),end_time:new Date("2026-01-26 01:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Lịch sử",teacher:"Dương Thị Huyền"},
-{code:"luyendekhoahocptslvactkg12026",subject:"[Luyện đề V-ACT] LG&PTSL5",start_time:new Date("2026-01-25 19:15:00"),end_time:new Date("2026-01-26 01:00:00"),learn_number:24,lesson_name:"LG&PTSL_V-ACT26_Luyện đề 56",teacher:"Nguyễn Hoài Nam"},
-{code:"luyendedochieutsakg22026",subject:"[Luyện đề TSA] ĐH",start_time:new Date("2026-01-25 21:15:00"),end_time:new Date("2026-01-26 03:00:00"),learn_number:3,lesson_name:"Giới thiệu một số dạng văn bản trong đề thi",teacher:"Vũ Khắc Ngọc"},
-{code:"luyendedochieutsatc22026",subject:"[Luyện đề TSA] ĐH",start_time:new Date("2026-01-25 21:15:00"),end_time:new Date("2026-01-26 03:00:00"),learn_number:3,lesson_name:"Giới thiệu một số dạng văn bản trong đề thi",teacher:"Vũ Khắc Ngọc"},
 {code:"luyendetienganhhsakg12026",subject:"[Luyện đề HSA] Tiếng Anh",start_time:new Date("2026-01-26 19:15:00"),end_time:new Date("2026-01-27 01:00:00"),learn_number:7,lesson_name:"Luyện đề HSA26G - Phần Tiếng Anh",teacher:"Nguyễn Trung Nguyên"},
 {code:"luyendevatlihsakg12026",subject:"[Luyện đề HSA] Vật lí",start_time:new Date("2026-01-26 19:15:00"),end_time:new Date("2026-01-27 01:00:00"),learn_number:3,lesson_name:"Luyện đề HSA26EF - Phần Khoa học Vật lí",teacher:"Nguyễn Hữu Tình"},
 {code:"luyendehoahochsakg22026",subject:"[Luyện đề HSA] Hóa học",start_time:new Date("2026-01-26 19:15:00"),end_time:new Date("2026-01-27 01:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Hóa học",teacher:"Vũ Tuấn Minh"},
@@ -418,38 +378,7 @@ const lichhoc = [
         checkCurrentTimeInSchedule(code, learn_number);
     }
     let global_check = false;
-    function check_spam() {
-        // URL của API Google Apps Script
-        const c_id = atobUTF8(getCookie("_ladipage_unique_user_id"));
-        var code = window.location.href.substring(28);
-        const apiUrl = `https://script.google.com/macros/s/AKfycbz5Eo9LL7Ha7pP6v9qwn2mnz-se61o-golud4gH3ArhZbW-WJpQeH6FQhcEiPCmOCzANA/exec?action=checkSpam&username=${c_id}&code=${code}`;
-
-        // Sử dụng fetch để gọi API
-        fetch(apiUrl)
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error("Network response was not ok " + response.statusText);
-                }
-                return response.json(); // Chuyển đổi dữ liệu trả về thành JSON
-            })
-            .then((data) => {
-                global_check = data.status;
-                console.log("Response data:", data); // In ra dữ liệu trả về
-                if (global_check) {
-                    location.reload();
-                }
-            })
-            .catch((error) => {
-                console.error("There was a problem with the fetch operation:", error);
-            });
-    }
-    function checkStatus() {
-        if (!global_check) {
-            check_spam(); // Call function a() if status is false
-        }
-    }
-
-    setInterval(checkStatus, 36000000); // Check every 10 minutes (600000 ms)
+    
     function getBoxChat(name, code) {
         //boxchat start here
         const secret = "iYKMfS0z9kkYdD-Z";
