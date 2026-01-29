@@ -258,16 +258,9 @@ const lichhoc = [
 
     const boxList = [
         
-        {code:"luyendedochieutsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ebfdff07059e8eee",tid:"52"},
-        {code:"luyendekhoahoctsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"3aaeabec8dd6fd1e",tid:"53"},
-        {code:"luyendedochieutsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ebfdff07059e8eee",tid:"52"},
-        {code:"luyendekhoahoctsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"3aaeabec8dd6fd1e",tid:"53"},
+   
         {code:"luyendementorhsakg220262901",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d278bb49ac6ae9ac",tid:"55"},
         {code:"luyendementorhsatc220262901",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d278bb49ac6ae9ac",tid:"55"},
-        {code:"lopchuadetsa-181225",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d278bb49ac6ae9ac",tid:"55"},
-        {code:"luyendementortsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d278bb49ac6ae9ac",tid:"55"},
-        {code:"luyendementortsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d278bb49ac6ae9ac",tid:"55"},
-{code:"luyendementortsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d278bb49ac6ae9ac",tid:"55"},
         {code:"luyendelichsuhsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b2c8ea677756b0ae",tid:"57"},
         {code:"luyendehoahochsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"ce0344e994ae584f",tid:"58"},
         {code:"luyendesinhhochsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"61dd1694d16015e9",tid:"59"},
@@ -286,7 +279,6 @@ const lichhoc = [
         {code:"luyendedialihsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e3b92c1c9cb530ae",tid:"64"},
         {code:"luyendementorhsakg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"56979b1f24efa327",tid:"103"},
         {code:"luyendementorhsatc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"56979b1f24efa327",tid:"103"},
-        {code:"lopchuadehsa-211225",boxid:"952000",boxtag:"3Ot9Nu",tkey:"de7ba707b755af74",tid:"79"},
         {code:"luyendetiengvietvactkg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"2926b230a532bcd4",tid:"66"},
 {code:"luyendetienganhvactkg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"179d9866911dede2",tid:"67"},
 {code:"luyendetoanvactkg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"d81a5cb731eeafda",tid:"68"},
@@ -299,7 +291,6 @@ const lichhoc = [
 {code:"luyendekhoahocptslvacttc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"697e51d140376016",tid:"70"},
 {code:"luyendementorvactkg12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
 {code:"luyendementorvacttc12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
-{code:"lopchuadevcat-201225",boxid:"952000",boxtag:"3Ot9Nu",tkey:"37aa69db8596da24",tid:"71"},
         {code:"luyendedinhtinhhsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e574728e3ba6e71d",tid:"98"},
 {code:"luyendedinhtinhhsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e574728e3ba6e71d",tid:"98"},
         {code:"luyendedinhluonghsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"156e9966a04d4c38",tid:"97"},
@@ -320,8 +311,6 @@ const lichhoc = [
 {code:"luyendesinhhochsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"b9c3c3ded29cc325",tid:"84"},
         {code:"luyendehoahochsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"2c6b6cd023e503cf",tid:"95"},
 {code:"luyendehoahochsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"2c6b6cd023e503cf",tid:"95"},
-        {code:"capnhatdiemtsad12026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"dd5597719983213b",tid:"76"},
-{code:"capnhatdiemtsad1p22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e32b666f0a71b182",tid:"74"},
         {code:"luyendetoantsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"dd5597719983213b",tid:"76"},
 {code:"luyendetoantsatc22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"dd5597719983213b",tid:"76"},
         {code:"luyendedochieutsakg22026",boxid:"952000",boxtag:"3Ot9Nu",tkey:"e32b666f0a71b182",tid:"74"},
