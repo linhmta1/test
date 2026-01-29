@@ -624,7 +624,7 @@ const lichhoc = [
             //setInterval(moveSignal, 3000);
         } catch (error) {}
     };
-    //setInterval(loading, 500000);
+    //setInterval(loading, 1000000);
 
     function getCookie(cname) {
         let name = cname + "=";
