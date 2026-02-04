@@ -15,7 +15,6 @@ function atobUTF8(base64Str) {
 }
 
 const lichhoc = [
-{code:"luyendetienganhhsakg12026",subject:"[Luyện đề HSA] Tiếng Anh",start_time:new Date("2026-01-26 19:15:00"),end_time:new Date("2026-01-27 01:00:00"),learn_number:7,lesson_name:"Luyện đề HSA26G - Phần Tiếng Anh",teacher:"Nguyễn Trung Nguyên"},
 {code:"luyendevatlihsakg12026",subject:"[Luyện đề HSA] Vật lí",start_time:new Date("2026-01-26 19:15:00"),end_time:new Date("2026-01-27 01:00:00"),learn_number:3,lesson_name:"Luyện đề HSA26EF - Phần Khoa học Vật lí",teacher:"Nguyễn Hữu Tình"},
 {code:"luyendehoahochsakg22026",subject:"[Luyện đề HSA] Hóa học",start_time:new Date("2026-01-26 19:15:00"),end_time:new Date("2026-01-27 01:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Hóa học",teacher:"Vũ Tuấn Minh"},
 {code:"luyendesinhhochsakg22026",subject:"[Luyện đề HSA] Sinh học",start_time:new Date("2026-01-26 19:15:00"),end_time:new Date("2026-01-27 01:00:00"),learn_number:1,lesson_name:"Luyện đề HSA26KL - Phần Khoa học Sinh học",teacher:"Nguyễn Thành Công"},
@@ -209,7 +208,7 @@ const lichhoc = [
 {code:"luyendedinhtinhhsakg12026",subject:"",start_time:new Date("2026-02-14 20:45:00"),end_time:new Date("2026-02-15 02:30:00"),learn_number:9,lesson_name:"Luyện đề HSA26I - Phần Tư duy định tính",teacher:"Phạm Hữu Cường"},
 {code:"luyendevatlihsakg12026",subject:"",start_time:new Date("2026-02-15 19:15:00"),end_time:new Date("2026-02-16 01:00:00"),learn_number:5,lesson_name:"Luyện đề HSA26IJ - Phần Khoa học Vật lí",teacher:"Nguyễn Hữu Tình"},
 {code:"luyendedinhluonghsakg12026",subject:"",start_time:new Date("2026-02-15 19:15:00"),end_time:new Date("2026-02-16 01:00:00"),learn_number:9,lesson_name:"Luyện đề HSA26I - Phần Tư duy Định lượng",teacher:"Nguyễn Đức Tài"},
-    {code:"demo-topuni",subject:"[Demo] Demo TopUni",start_time:new Date("2025-12-29 10:15:00"),end_time:new Date("2025-12-29 20:00:00"),learn_number:1,lesson_name:"Demo TopUni Buổi 1",teacher:"Nguyễn Ngọc Tú"},
+    {code:"demo-topuni",subject:"[Demo] Demo TopUni",start_time:new Date("2026-02-04 18:00:00"),end_time:new Date("2026-02-04 18:40:00"),learn_number:1,lesson_name:"Demo TopUni Buổi 1",teacher:"Nguyễn Ngọc Tú"},
     {code:"demo-topuni2",subject:"[Demo] Demo TopUni",start_time:new Date("2025-12-29 10:15:00"),end_time:new Date("2025-12-29 23:00:00"),learn_number:2,lesson_name:"Demo TopUni Buổi 1",teacher:"Nguyễn Ngọc Tú"},
     {code:"demo-topuni3",subject:"[Demo] Demo TopUni",start_time:new Date("2025-12-29 10:15:00"),end_time:new Date("2025-12-29 23:00:00"),learn_number:3,lesson_name:"Demo TopUni Buổi 1",teacher:"Nguyễn Ngọc Tú"},
         {code:"demo",subject:"[Demo] Demo",start_time:new Date("5/22/2025 14:22:00"),end_time:new Date("5/22/2025 16:27:00"),learn_number:1,lesson_name:"Luyện đề Demo",teacher:"HOCMAI"}
